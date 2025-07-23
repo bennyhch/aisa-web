@@ -6,9 +6,9 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const navItems = [
-  { title: "WHO WE ARE", href: "/who" },
-  { title: "WHAT WE DO", href: "/what" },
-  { title: "HOW WE WORK", href: "/how" },
+  { title: "WHO WE ARE", href: "/who-we-are" },
+  { title: "WHAT WE DO", href: "/what-we-do" },
+  { title: "HOW WE WORK", href: "/how-we-work" },
   { title: "NEWS & INSIGHTS", href: "/news" },
 ];
 
@@ -16,9 +16,10 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-300">
+    // <header className="bg-gray-300">
+    <header className="bg-oceanGreen">
       <nav
-        className="flex items-center justify-between p-6"
+        className="flex items-center justify-between py-6 px-10"
         aria-label="Main Navigation"
       >
         <Link href="/">
@@ -27,7 +28,7 @@ const Header = () => {
             alt="AI Safety Asia Logo"
             width={150}
             height={50}
-            className="logo"
+            priority
           />
         </Link>
 
@@ -42,10 +43,12 @@ const Header = () => {
         </div>
 
         <div className="md:hidden">
-          <GiHamburgerMenu onClick={() => setIsOpen(!isOpen)} />
+          <button onClick={() => setIsOpen(!isOpen)}>
+            <GiHamburgerMenu size={40} />
+          </button>
 
           {isOpen && (
-            <ul className="absolute right-0 z-10 mt-2 w-48 bg-white shadow-lg">
+            <ul className="absolute right-0 w-full z-10 mt-2 bg-white shadow-lg">
               {navItems.map((item) => (
                 <li key={item.title}>
                   <Link href={item.href} className="block px-4 py-2">
