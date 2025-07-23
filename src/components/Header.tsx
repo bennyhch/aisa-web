@@ -1,16 +1,10 @@
 "use client";
 
+import navItems from "@/data/navItems";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-
-const navItems = [
-  { title: "WHO WE ARE", href: "/who-we-are" },
-  { title: "WHAT WE DO", href: "/what-we-do" },
-  { title: "HOW WE WORK", href: "/how-we-work" },
-  { title: "NEWS & INSIGHTS", href: "/news" },
-];
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
