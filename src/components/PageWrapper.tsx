@@ -5,7 +5,7 @@ interface PageWrapperProps {
 }
 
 const PageWrapper = ({ children }: PageWrapperProps) => {
-  return <main className="py-8">{children}</main>;
+  return <main className="pt-8">{children}</main>;
 };
 
 export default PageWrapper;

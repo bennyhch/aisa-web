@@ -1,18 +1,6 @@
-const H2 = ({
-  heading,
-  textColor,
-  paddingHorizontal = "0",
-  paddingVertical = "0",
-}: {
-  heading: string;
-  textColor: string;
-  paddingHorizontal?: string;
-  paddingVertical?: string;
-}) => {
+const H2 = ({ heading }: { heading: string }) => {
   return (
-    <h2
-      className={`text-${textColor} text-5xl font-bold px-${paddingHorizontal} py-${paddingVertical}`}
-    >
+    <h2 className={`text-black text-5xl font-bold py-12 px-18 bg-slate-50`}>
       {heading}
     </h2>
   );
