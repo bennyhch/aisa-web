@@ -10,8 +10,8 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    // <header className="bg-gray-300">
-    <header className="bg-oceanGreen">
+    <header className="bg-gray-100">
+      {/* <header className="bg-oceanGreen"> */}
       <nav
         className="flex items-center justify-between py-6 px-10"
         aria-label="Main Navigation"
@@ -27,7 +27,7 @@ const Header = () => {
         </Link>
 
         <div className="hidden md:block">
-          <ul className="flex gap-x-10">
+          <ul className="flex gap-x-10 font-bold">
             {navItems.map((item) => (
               <li key={item.title}>
                 <Link href={item.href}>{item.title}</Link>
