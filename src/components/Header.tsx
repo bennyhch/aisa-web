@@ -10,7 +10,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-slate-50">
+    <header>
       {/* <header className="bg-oceanGreen"> */}
       <nav
         className="flex items-center justify-between py-6 px-10"
