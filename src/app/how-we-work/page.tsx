@@ -31,13 +31,21 @@ const page = () => {
       <section>
         <H2 heading="HOW WE COLLABORATE" />
         <HorizontalLine />
-        <div>
-          {collaborators.map(({ title, description }) => (
-            <div key={title} className="border-2">
-              <h4>{title}</h4>
-              <p>{description}</p>
+        <div className="min-h-screen p-6 md:p-12">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-12">
+              {collaborators.map((collaborator, index) => (
+                <div key={index} className="bg-white p-8">
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+                    {collaborator.title}:
+                  </h2>
+                  <p className="text-lg text-gray-600">
+                    {collaborator.description}
+                  </p>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
