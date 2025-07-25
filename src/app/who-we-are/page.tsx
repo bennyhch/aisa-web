@@ -63,7 +63,7 @@ const page = () => {
                   </h2>
 
                   {/* Title */}
-                  <h3 className="text-lg font-semibold text-blue-600 mb-6">
+                  <h3 className="text-lg font-semibold text-oceanGreen mb-6">
                     {founder.title}
                   </h3>
 
@@ -72,7 +72,7 @@ const page = () => {
                     <ul className="space-y-3">
                       {founder.bulletPoints.map((point, index) => (
                         <li key={index} className="flex items-start">
-                          <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                          <span className="w-1 h-1 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
                           <span className="text-gray-700 leading-relaxed">
                             {point}
                           </span>
@@ -114,7 +114,7 @@ const page = () => {
                   </h2>
 
                   {/* Title */}
-                  <h3 className="text-lg font-semibold text-blue-600 mb-6">
+                  <h3 className="text-lg font-semibold text-oceanGreen mb-6">
                     {title}
                   </h3>
 
@@ -123,7 +123,7 @@ const page = () => {
                     <ul className="space-y-3">
                       {bulletPoints.map((point, index) => (
                         <li key={index} className="flex items-start">
-                          <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                          <span className="w-1 h-1 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
                           <span className="text-gray-700 leading-relaxed">
                             {point}
                           </span>
@@ -167,7 +167,7 @@ const page = () => {
                   </h2>
 
                   {/* Title */}
-                  <h3 className="text-lg font-semibold text-blue-600 mb-6">
+                  <h3 className="text-lg font-semibold text-oceanGreen mb-6">
                     {title}
                   </h3>
 
@@ -176,7 +176,7 @@ const page = () => {
                     <ul className="space-y-3">
                       {bulletPoints.map((point, index) => (
                         <li key={index} className="flex items-start">
-                          <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                          <span className="w-1 h-1 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
                           <span className="text-gray-700 leading-relaxed">
                             {point}
                           </span>
@@ -188,6 +188,20 @@ const page = () => {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section>
+        <H2 heading="OUR PARTNERS" />
+        <HorizontalLine />
+        <div className="w-2/3 mx-auto py-20">
+          <Image
+            src="/partners.png"
+            alt="Partners"
+            width={1200}
+            height={600}
+            className="w-full h-auto object-cover"
+          />
         </div>
       </section>
     </PageWrapper>
