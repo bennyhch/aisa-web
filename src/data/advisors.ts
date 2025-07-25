@@ -1,68 +1,78 @@
-const teamMembers = [
+const advisors = [
   {
     id: 1,
-    name: "NONYO MITRA",
-    title: "Capacity Building",
-    image: "/team/Anonyo.jpg",
+    name: "IMA ABDULRAHIM",
+    // title: "Capacity Building",
+    image: "/team/Ima.jpeg",
     bulletPoints: [
-      "Held a Master in Public Policy with a focus on AI & tech policy and governance from Harvard University.",
-      "Formally led Teach For India’s strategy and operations.",
-      "Researches on AI governance and safety, with a focus on making AI safety easily accessible to non-technical but vital stakeholders such as policymakers and state actors.",
+      "Former Public Policy Director for Southeast Asia at Meta.",
+      "Former Executive Director of the Habibie Center.",
     ],
   },
   {
     id: 2,
-    name: "SHI HAO LEE",
-    title: "Technical and Insight",
-    image: "/team/ShiHao.jpeg",
+    name: "DR. HODA A. ALKHZAIM",
+    // title: "Technical and Insight",
+    image: "/team/Hoda.jpg",
     bulletPoints: [
-      "Current MEng Computer Science student at Cornell Tech, specializing in AI policy.",
-      "Former NLP researcher at Lawrence Berkeley National Laboratory's NucScholar team, working on Nuclear Science research papers.",
-      "Led a student organization in ML tech consulting and creative ML projects, driving innovative solutions for real-time data insights.",
+      "Co-Chair for Global Future Council for Cyber Security at World Economic Forum",
     ],
   },
   {
     id: 3,
-    name: "MESLISSA LEUNG",
-    title: "Communications ",
-    image: "/team/Melissa.jpg",
+    name: "ESBEN KRAN",
+    // title: "Communications ",
+    image: "/team/Esben.png",
     bulletPoints: [
-      "Served as International Media Coordinator for one of Taiwan’s Presidential candidates in the 2024 presidential election in Taiwan.",
-      "Co-ordinated large-scale regional and global public affairs projects and provided media strategies for multilateral organisations including COP28, the APEC Secretariat, Asian Development Bank.",
-      "Managed award-winning nation branding project for the Government of Mongolia.",
+      "Founder of Apart; Co-founder of European Network for AI Safety",
     ],
   },
   {
     id: 4,
-    name: "PHILIP THAM",
-    title: "Research",
-    image: "/team/Philip-Tham.jpeg",
+    name: "PROF. AARON MANIAM",
+    // title: "Research",
+    image: "/team/aaron.png",
     bulletPoints: [
-      "Researcher at AISA",
-      "Senior at Sciences Po Paris and Columbia University in the City of New York",
+      "Director of Digital Transformation Education, Blavatnik School of Government, University of Oxford",
+      "Former Deputy Secretary of the Singaporean Ministry of Communications and Information",
     ],
   },
   {
     id: 5,
-    name: "P.T. Nhean",
-    title: "Director of Biosecurity",
-    image: "/team/PT.jpeg",
-    bulletPoints: [
-      "Specialized in AI-Bio, working closely with Center For Long Term Resilience.",
-      "Recognized as Top Female Founder by EIT Health Austria.",
-      "Experienced in youth health advocacy research with the WHO, writing policy briefs, and biosecurity research.",
-    ],
+    name: "ROBERT TRAGER",
+    // title: "Director of Biosecurity",
+    image: "/team/robert.jpeg",
+    bulletPoints: ["Co-Director of the Oxford Martin AI Governance Initiative"],
   },
   {
     id: 6,
-    name: "Zar Motik Adisuryo",
-    title: "National Representative of Indonesia",
-    image: "/team/Zar.jpg",
+    name: "Alejandro REYES",
+    // title: "National Representative of Indonesia",
+    image: "/team/REYES.jpg",
     bulletPoints: [
-      "Master of Arts degree in Communication, Culture, and Technology, where she focused on media systems design and technology policy.",
-      "Passionate about fostering collaborative efforts to enhance connectivity in the socio-technical systems of developing regions, leveraging diverse perspectives to create inclusive and impactful solutions through innovation and technology governance.",
+      "Scholar-in-residence at the Asia Society",
+      "Formally led Asia-Pacific policy planning unit at the Canadian foreign ministry",
+    ],
+  },
+  {
+    id: 7,
+    name: "HAMMAM RIZA",
+    // title: "National Representative of Indonesia",
+    image: "/team/Riza.jpeg",
+    bulletPoints: [
+      "President of KORIKA",
+      "Delegate to UK AI summit on behalf of Indonesia",
+    ],
+  },
+  {
+    id: 8,
+    name: "YI ZENG",
+    // title: "National Representative of Indonesia",
+    image: "/team/YiZeng.jpg",
+    bulletPoints: [
+      "Founding director of Beijing Institute of AI Safety and Governance (Beijing-AISI)",
     ],
   },
 ];
 
-export default teamMembers;
+export default advisors;
