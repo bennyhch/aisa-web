@@ -12,8 +12,9 @@ const page = () => {
       <HorizontalLine />
 
       <section className="w-full flex justify-center px-4 lg:px-0">
-        <div className="w-full lg:w-2/3 py-14">
-          <div className="flex">
+        <div className="w-full lg:w-2/3 py-14 space-y-8">
+          {/* Header + empty right side */}
+          <div className="flex flex-col lg:flex-row">
             <header className="text-left w-full lg:w-1/2 px-4 py-5">
               <h3 className="text-oceanGreen text-4xl font-black">
                 We convene, research, and build capacity to shape the future of
@@ -23,16 +24,16 @@ const page = () => {
             <div className="w-full lg:w-1/2"></div>
           </div>
 
-          <div className="flex">
+          {/* Empty left side + Article */}
+          <div className="flex flex-col lg:flex-row">
             <div className="w-full lg:w-1/2"></div>
-            <article className="w-full lg:w-1/2  flex flex-col justify-center px-4 py-5 space-y-4">
+            <article className="w-full lg:w-1/2 flex flex-col justify-center px-4 py-5 space-y-4">
               <p>
                 We believe that achieving safe and governed AI begins with
                 building bridges—between generations, disciplines, and regions
                 through actionable steps across our three interrelated program
                 pillars.
               </p>
-              <br />
               <p>
                 We strive to minimise the risks of AI adoption while supporting
                 societies to adopt AI safely.
@@ -116,8 +117,8 @@ const page = () => {
       <section>
         <H2 heading="WHERE WE WORK" />
         <HorizontalLine />
-        <div className="flex p-30 gap-x-4 justify-center items-center">
-          <div className="w-1/2">
+        <div className="flex flex-col lg:flex-row p-6 lg:p-30 gap-y-6 lg:gap-x-4 justify-center items-center">
+          <div className="w-full lg:w-1/2">
             <Image
               src="/asiamap.png"
               alt="Map of Asia"
@@ -126,17 +127,15 @@ const page = () => {
               className="object-contain"
             />
           </div>
-          <article className="w-1/2 text-justify">
+          <article className="w-full lg:w-1/2 text-justify space-y-4">
             <p>
               Asia is home to 60% of the world’s population and is a highly
               diverse region with distinct political, social, and technological
               contexts. The continent is rapidly becoming a key part of the
               global AI value chain, with AI investments projected to reach $110
               billion by 2028.
-            </p>{" "}
-            <br />
+            </p>
             <p>
-              {" "}
               However, AI development and governance across the region remain
               highly uneven. In particular, Southeast Asia has a less mature AI
               ecosystem and is significantly underrepresented in global AI
@@ -144,10 +143,8 @@ const page = () => {
               limited governance preparedness and rising foreign direct
               investment in AI critical infrastructure across the region further
               heightens the risks associated with rapid AI adoption.
-            </p>{" "}
-            <br />
+            </p>
             <p>
-              {" "}
               We aim to maximize the impact of our work. Beginning in Southeast
               Asia, we support the development of policy, technical, and
               research capabilities across the Asia-Pacific region to help

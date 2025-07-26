@@ -46,22 +46,21 @@ const page = () => {
       <section>
         <H2 heading="PUBLICATIONS" />
         <HorizontalLine />
-        <div className="flex justify-center items-center flex-col">
+        <div className="flex justify-center items-center flex-col px-4">
           {publications.map((publication, i) => (
             <Link
               key={publication.id}
               href={publication.link}
-              className="block py-10"
+              className="block w-full max-w-4xl py-10"
             >
-              <div className="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 gap-4">
+              <div className="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 gap-4 w-full">
                 {/* Left side - Title and Description */}
-                {/* <div className="md:flex-1 w-full border-2"> */}
-                <div className=" w-md">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2 underline">
+                <div className="w-full">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2 underline break-words">
                     {publication.title}
                   </h3>
                   <p
-                    className={` ${
+                    className={`break-words ${
                       i === 0
                         ? "font-bold underline text-xl text-gray-800"
                         : "text-gray-600 text-sm leading-relaxed"
@@ -72,8 +71,7 @@ const page = () => {
                 </div>
 
                 {/* Right side - Image */}
-                {/* <div className="w-[192px] h-[128px] flex-shrink-0 border-2"> */}
-                <div className="">
+                <div className="w-full md:w-[192px] md:h-[128px] flex-shrink-0">
                   <Image
                     src={publication.imageUrl}
                     alt={publication.title}

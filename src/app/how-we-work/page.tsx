@@ -9,15 +9,13 @@ const page = () => {
       <section>
         <H2 heading="HOW WE WORK" />
         <HorizontalLine />
-        <div className="flex flex-row justify-between items-start gap-5 py-20 w-[750px]  mx-auto">
-          <header className="mt-0">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-5 py-20 w-full max-w-[750px] mx-auto px-6">
+          <header className="mt-0 lg:mt-0">
             <h3 className="text-oceanGreen font-bold text-3xl">
               The principles that guide us:
             </h3>
           </header>
-          <article className="mt-20">
-            {" "}
-            {/* Increase margin-top for more downward shift */}
+          <article className="mt-10 lg:mt-20">
             <ul className="flex flex-col gap-y-3 font-bold text-lg list-none">
               <li>Regionally grounded</li>
               <li>Multistakeholder and inclusive</li>
@@ -31,7 +29,7 @@ const page = () => {
       <section>
         <H2 heading="HOW WE COLLABORATE" />
         <HorizontalLine />
-        <div className="min-h-screen p-6 md:p-12">
+        <div className="min-h-screen py-6 px-2 md:p-12">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-12">
               {collaborators.map((collaborator, index) => (
@@ -52,7 +50,7 @@ const page = () => {
       <section>
         <H2 heading="ENGAGE WITH US" />
         <HorizontalLine />
-        <article className="py-15 px-30 text-justify">
+        <article className="py-15 px-10 md:px-30 text-justify">
           <p>
             As a nonprofit, nonpartisan, publicly supported organization, we
             rely on the generosity of individuals, corporations, and foundations

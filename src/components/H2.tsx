@@ -1,8 +1,6 @@
 const H2 = ({ heading }: { heading: string }) => {
   return (
-    <h2
-      className={`text-black text-5xl font-bold py-12 px-8 md:px-18 bg-slate-50`}
-    >
+    <h2 className="w-full break-words text-black text-3xl md:text-5xl font-bold py-12 px-6 md:px-12 bg-slate-50">
       {heading}
     </h2>
   );
