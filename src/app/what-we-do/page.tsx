@@ -65,9 +65,9 @@ const page = () => {
       <section>
         <H2 heading="OUR FOCUS AREAS" />
         <HorizontalLine />
-        <div className="flex py-20">
-          <article className=" w-[200px] px-3 flex flex-col">
-            <div className="flex-1 flex items-start">
+        <div className="flex flex-col md:flex-row py-20 justify-center gap-6">
+          <article className="w-full md:w-[200px] px-3 flex flex-col items-center">
+            <div className="flex-shrink-0">
               <Image
                 src="/climate.png"
                 alt="iceberg"
@@ -78,11 +78,13 @@ const page = () => {
             </div>
 
             <h3 className="text-center font-bold text-xl py-4">Climate</h3>
-            <p>AI in climate modeling, disaster response, sustainability</p>
+            <p className="text-center">
+              AI in climate modeling, disaster response, sustainability
+            </p>
           </article>
 
-          <article className=" w-[200px] flex flex-col">
-            <div className="flex-1 flex items-start">
+          <article className="w-full md:w-[200px] px-3 flex flex-col items-center">
+            <div className="flex-shrink-0">
               <Image
                 src="/bio-security.png"
                 alt="microscope"
@@ -92,21 +94,23 @@ const page = () => {
               />
             </div>
             <h3 className="text-center font-bold text-xl py-4">Bio-Security</h3>
-            <p>AI’s role in synthetic biology, pandemic prevention</p>
+            <p className="text-center">
+              AI’s role in synthetic biology, pandemic prevention
+            </p>
           </article>
 
-          <article className=" w-[200px] px-3 flex flex-col ">
-            <div className="flex-1 flex justify-end items-end">
+          <article className="w-full md:w-[200px] px-3 flex flex-col items-center">
+            <div className="flex-shrink-0">
               <Image
                 src="/swing.png"
                 alt="child playing on a swing"
                 width={200}
                 height={100}
-                className="object-contain object-bottom"
+                className="object-contain"
               />
             </div>
             <h3 className="text-center font-bold text-xl py-4">AI for Good</h3>
-            <p>
+            <p className="text-center">
               Ethical deployment, inclusive development, child safety to support
               the advancement of Sustainable Development Goals
             </p>
