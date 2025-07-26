@@ -8,8 +8,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <PageWrapper>
-      <header className="py-8 px-28">
-        <h1 className="text-oceanGreen text-6xl font-extrabold">
+      <header className="py-8 px-6 sm:px-12 md:px-20 lg:px-28">
+        <h1 className="text-oceanGreen text-4xl sm:text-5xl md:text-6xl font-extrabold">
           Building Asia as a
           <br /> globally-leading safe and
           <br /> responsible AI innovator
@@ -20,24 +20,23 @@ export default function Home() {
         </p>
       </header>
 
-      <section className="flex flex-col lg:flex-row text-white bg-oceanGreen">
-        <article className="px-18 w-full lg:w-3/5 pt-20 text-justify lg:pr-38">
-          <h2 className="text-white text-5xl font-bold">WHO WE ARE</h2>
-          <p className="pt-16">
+      <section className="flex flex-col lg:flex-row lg:items-center text-white bg-oceanGreen">
+        <article className="px-10 sm:px-6 md:px-10 lg:px-24 w-full lg:w-3/5 pt-10 pb-8 text-justify">
+          <h2 className="text-white text-4xl sm:text-5xl font-bold">
+            WHO WE ARE
+          </h2>
+          <p className="pt-8">
             Established in 2024, AI Safety Asia (AISA) is a global non-profit
             dedicated to building Asia as a globally-leading safe and
             responsible AI innovator.
-          </p>{" "}
-          <br />
+          </p>
           <br />
           <p>
             We strive to minimise the risks of AI adoption while supporting
             societies to adopt AI safely.
-          </p>{" "}
-          <br />
+          </p>
           <br />
           <p>
-            {" "}
             At the core of our mission is the integrated, diverse and
             collaborative nature of our work. We believe that achieving safe and
             governed AI begins with building bridges—between generations,
@@ -47,46 +46,48 @@ export default function Home() {
           </p>
         </article>
 
-        <div className="w-full lg:w-2/5">
+        <div className="w-full lg:w-2/5 px-4 sm:px-6 md:px-10 lg:px-24 py-5">
           <Image
             src="/skyscraper_night.png"
             alt="Skyscrapers at night"
             width={700}
             height={350}
-            className="object-contain"
+            className="object-contain w-full max-w-full h-auto"
           />
         </div>
       </section>
 
       {/* WHERE WE WORK */}
-      <section className="flex flex-col ">
+      <section>
         <H2 heading="WHERE WE WORK" />
         <HorizontalLine />
-        <article className="flex px-18 gap-x-10">
+
+        <article className="flex flex-col lg:flex-row px-10 sm:px-6 md:px-10 lg:px-24 gap-y-8 lg:gap-x-10 pt-8">
           <div className="w-full lg:w-2/5 flex justify-center items-center">
             <Image
               src="/asiamap.png"
               alt="Map of Asia"
               width={1000}
               height={500}
-              className="object-contain"
+              className="object-contain w-full max-w-full h-auto"
             />
           </div>
 
-          <div className="w-full lg:w-3/5 text-justify flex items-center justify-around">
-            <article className="w-2/3">
+          <div className="w-full lg:w-3/5 text-justify flex items-center">
+            <div className="w-full">
               <p>
                 At the core of our mission is the integrated, diverse and
                 collaborative nature of our work.
               </p>
               <br />
-              <br />
               <p>
                 We collaborate with civil society organisations, governments,
                 and think tanks across Southeast, East, and South Asia, to build
-                an ecosystem to advance safe, regionally grounded AI governance
+                an ecosystem to advance safe, regionally grounded AI governance.
               </p>
-            </article>
+              <br />
+              <br />
+            </div>
           </div>
         </article>
       </section>
@@ -95,7 +96,7 @@ export default function Home() {
       <section className="flex flex-col ">
         <H2 heading="WHAT WE DO" />
         <HorizontalLine />
-        <div className="flex flex-col lg:flex-row lg:justify-content lg:px-60 lg:gap-x-26 w-full py-26">
+        <div className="flex flex-col lg:flex-row lg:justify-content lg:px-60 lg:gap-x-26 gap-y-12 w-full py-26 px-10">
           {topics.map(({ imageSrc, alt, title, description }) => (
             <article key={title} className="w-full lg:w-1/3">
               <div className="h-30 flex justify-center items-center">
