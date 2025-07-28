@@ -11,7 +11,7 @@ const page = () => {
         <HorizontalLine />
         <div className="flex flex-col lg:flex-row justify-between items-start gap-5 py-20 w-full max-w-[750px] mx-auto px-6">
           <header className="mt-0 lg:mt-0">
-            <h3 className="text-oceanGreen font-bold text-3xl">
+            <h3 className="text-oceanGreen font-bold text-3xl lg:whitespace-nowrap">
               The principles that guide us:
             </h3>
           </header>

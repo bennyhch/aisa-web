@@ -11,11 +11,12 @@ const advisors = [
   },
   {
     id: 2,
-    name: "DR. HODA A. ALKHZAIM",
+    name: "DR. HODA A. ALKHZAIMI",
     // title: "Technical and Insight",
     image: "/team/Hoda.jpg",
     bulletPoints: [
       "Co-Chair for Global Future Council for Cyber Security at World Economic Forum",
+      "Director of Center of Cyber Security in New York University AD",
     ],
   },
   {
@@ -42,7 +43,10 @@ const advisors = [
     name: "ROBERT TRAGER",
     // title: "Director of Biosecurity",
     image: "/team/robert.jpeg",
-    bulletPoints: ["Co-Director of the Oxford Martin AI Governance Initiative"],
+    bulletPoints: [
+      "Co-Director of the Oxford Martin AI Governance Initiative",
+      "Senior Research Fellow at the Blavatnik School of Government at the University of Oxford",
+    ],
   },
   {
     id: 6,

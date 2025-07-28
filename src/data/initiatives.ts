@@ -8,7 +8,10 @@ const initiatives = [
       "Our signature initiative is the AI Governance Roundtable Series, which focuses on regional opportunities, challenges, and strategies for AI safety governance.",
       "Our roundtable brings together government ministers/secretary and experts from top institutions in the Global North and policy experts in the SEA region.",
     ],
-    link: "Learn more.",
+    link: {
+      text: "Learn more.",
+      url: "https://www.youtube.com/channel/UCQBPcRCiClcc51-lZGnNSmg",
+    },
   },
   {
     id: "train",
@@ -29,7 +32,10 @@ const initiatives = [
       "AISA SEA observatory, one of AISA’s flagship projects, provides a comprehensive view of the state of AI policy and governance in the region.",
       "The SEA Observatory won second prize as one of the best papers of the research workshop at the UNESCO Global Forum on the Ethics of AI 2025.",
     ],
-    link: "Learn more.",
+    link: {
+      text: "Learn more.",
+      url: "https://seaobservatory.com/",
+    },
   },
 ];
 

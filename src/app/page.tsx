@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <PageWrapper>
-      <header className="py-8 px-6 sm:px-12 md:px-20 lg:px-28">
+      <header className="min-h-screen flex flex-col justify-center py-8 px-6 sm:px-12 md:px-20 lg:px-28">
         <h1 className="text-oceanGreen text-4xl sm:text-5xl md:text-6xl font-extrabold">
           Building Asia as a
           <br /> globally-leading safe and

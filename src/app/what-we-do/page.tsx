@@ -57,7 +57,16 @@ const page = () => {
                 {paragraph}
               </p>
             ))}
-            {link && <p className="underline cursor-pointer">{link}</p>}
+            {link && (
+              <a
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline cursor-pointer"
+              >
+                {link.text}
+              </a>
+            )}
           </article>
         ))}
       </section>
