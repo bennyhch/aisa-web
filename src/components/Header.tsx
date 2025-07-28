@@ -42,9 +42,8 @@ const Header = () => {
 
   return (
     <header>
-      {/* <header className="bg-oceanGreen"> */}
       <nav
-        className="flex items-center justify-between py-6 px-10"
+        className="flex items-center justify-between pt-6 px-10"
         aria-label="Main Navigation"
       >
         <Link href="/">
