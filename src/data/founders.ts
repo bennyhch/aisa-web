@@ -23,14 +23,13 @@ const founders = [
   },
   {
     id: 3,
-    name: "SUPHEAKMUNGKOL SARIN",
+    name: "DR. SUPHEAKMUNGKOL SARIN",
     title: "Executive Director",
     image: "/team/Mungkol.png",
     bulletPoints: [
-      "Seasoned technology leader with two decades of expertise in data and AI.",
-      "Founder of AI Equity Advisory and an AI Expert to the United Nations Secretary-General’s High-Level Advisory Body on Artificial Intelligence.",
-      "Head of Data and AI Ecosystems at the World Economic Forum (WEF), established the AI Governance Alliance.",
-      "Led initiatives to promote inclusive AI at Google.",
+      "AI Expert to the UN Secretary-General’s High-Level Advisory Body on Artificial Intelligence and senior strategy consultant to UNESCAP and the World Bank, backed by 20 years of data and AI leadership.",
+      "As Head of Data & AI Ecosystems at the World Economic Forum, helped launch the AI Governance Alliance, co-founded the Safe Systems & Technology Initiative, and convened the inaugural AI Governance Summit (2023).",
+      "At Google Research, directed inclusive-AI programs that expanded responsible AI tools and products to more than one billion users worldwide."
     ],
   },
 ];
