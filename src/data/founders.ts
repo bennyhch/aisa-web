@@ -27,9 +27,9 @@ const founders = [
     title: "Executive Director",
     image: "/team/Mungkol.png",
     bulletPoints: [
-      "AI Expert to the UN Secretary-General’s High-Level Advisory Body on Artificial Intelligence and senior strategy consultant to UNESCAP and the World Bank, backed by 20 years of data and AI leadership.",
-      "As Head of Data & AI Ecosystems at the World Economic Forum, helped launch the AI Governance Alliance, co-founded the Safe Systems & Technology Initiative, and convened the inaugural AI Governance Summit (2023).",
-      "At Google Research, directed inclusive-AI programs that expanded responsible AI tools and products to more than one billion users worldwide."
+      "AI Expert to the UN Secretary-General’s High-Level Advisory Body on AI and Senior Strategy Consultant to UNESCAP and the World Bank, backed by 20 years of data and AI leadership.",
+      "As Head of Data & AI Ecosystems at the World Economic Forum, helped launch the AI Governance Alliance, co-founded the Safe Systems & Technologies Initiative, and convened the inaugural AI Governance Summit (2023).",
+      "At Google Research, directed inclusive-AI programs that expanded responsible AI tools, datasets and products to more than one billion users worldwide."
     ],
   },
 ];
