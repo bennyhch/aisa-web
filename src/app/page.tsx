@@ -8,12 +8,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <PageWrapper>
-      {/* <header className="min-h-[90vh] flex flex-col justify-center py-8 px-6 sm:px-12 md:px-20 lg:px-28 bg-slate-50"> */}
       <header className="min-h-[90vh] flex flex-col justify-center py-[1.75rem] sm:py-8 px-6 sm:px-12 md:px-20 lg:px-28 bg-slate-50">
-        <h1 className="text-oceanGreen text-4xl sm:text-5xl md:text-8xl font-extrabold">
-          Building Asia as a
-          <br /> globally-leading safe and
-          <br /> responsible AI innovator
+        <h1 className="text-oceanGreen text-4xl sm:text-5xl md:text-7_5xl font-extrabold leading-tight">
+          <span className="block">Building Asia as a</span>
+          <span className="block">globally-leading safe and</span>
+          <span className="block">responsible AI innovator</span>
         </h1>
 
         <p className="pt-8 font-bold text-xl">
