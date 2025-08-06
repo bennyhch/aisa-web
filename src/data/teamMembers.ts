@@ -23,7 +23,7 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: "MESLISSA LEUNG",
+    name: "MELISSA LEUNG",
     title: "Communications ",
     image: "/team/Melissa.jpg",
     bulletPoints: [
@@ -44,7 +44,7 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: "P.T. Nhean",
+    name: "P.T. NHEAN",
     title: "Director of Biosecurity",
     image: "/team/PT.jpeg",
     bulletPoints: [
@@ -55,7 +55,7 @@ const teamMembers = [
   },
   {
     id: 6,
-    name: "Zar Motik Adisuryo",
+    name: "ZAR MOTIK ADISURYO",
     title: "National Representative of Indonesia",
     image: "/team/Zar.jpg",
     bulletPoints: [
