@@ -74,6 +74,7 @@ const page = () => {
       <section>
         <H2 heading="OUR FOCUS AREAS" />
         <HorizontalLine />
+        <!--
         <div className="flex flex-col md:flex-row py-20 justify-center gap-6">
           <article className="w-full md:w-[200px] px-3 flex flex-col items-center">
             <div className="flex-shrink-0">
@@ -84,7 +85,7 @@ const page = () => {
                 height={100}
                 className="object-contain"
               />
-            </div>
+            </div> -->
 
             <h3 className="text-center font-bold text-xl py-4">Climate</h3>
             <p className="text-center">
