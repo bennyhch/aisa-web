@@ -1,7 +1,7 @@
 const teamMembers = [
   {
     id: 1,
-    name: "NONYO MITRA",
+    name: "ANONYO MITRA",
     title: "Capacity Building",
     image: "/team/Anonyo.jpg",
     bulletPoints: [
