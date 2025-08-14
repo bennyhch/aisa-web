@@ -11,17 +11,6 @@ const teamMembers = [
     ],
   },
   {
-    id: 2,
-    name: "SHI HAO LEE",
-    title: "Technical and Insight",
-    image: "/team/ShiHao.jpeg",
-    bulletPoints: [
-      "Current MEng Computer Science student at Cornell Tech, specializing in AI policy.",
-      "Former NLP researcher at Lawrence Berkeley National Laboratory's NucScholar team, working on Nuclear Science research papers.",
-      "Led a student organization in ML tech consulting and creative ML projects, driving innovative solutions for real-time data insights.",
-    ],
-  },
-  {
     id: 3,
     name: "MESLISSA LEUNG",
     title: "Communications ",
