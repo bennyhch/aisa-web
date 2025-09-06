@@ -64,13 +64,13 @@ export default function Home() {
 
         <article className="flex flex-col lg:flex-row px-10 sm:px-6 md:px-10 lg:px-24 gap-y-8 lg:gap-x-10 pt-8">
           <div className="w-full lg:w-2/5 flex justify-center items-center">
-            <Image
+            /* <Image
               src="/asiamap.png"
               alt="Map of Asia"
               width={1000}
               height={500}
               className="object-contain w-full max-w-full h-auto"
-            />
+            /> */
           </div>
 
           <div className="w-full lg:w-3/5 text-justify flex items-center">
