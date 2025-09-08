@@ -132,6 +132,7 @@ const page = () => {
         <H2 heading="WHERE WE WORK" />
         <HorizontalLine />
         <div className="flex flex-col lg:flex-row p-6 lg:p-30 gap-y-6 lg:gap-x-4 justify-center items-center">
+          {false && (
           <div className="w-full lg:w-1/2">
             <Image
               src="/asiamap.png"
@@ -141,6 +142,7 @@ const page = () => {
               className="object-contain"
             />
           </div>
+          )}
           <article className="w-full lg:w-1/2 text-justify space-y-4">
             <p>
               Asia is home to 60% of the world’s population and is a highly
