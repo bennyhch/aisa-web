@@ -39,7 +39,9 @@ const teamMembers = [
     bulletPoints: [
       "Specialized in AI-Bio, working closely with Center For Long Term Resilience.",
       "Recognized as Top Female Founder by EIT Health Austria.",
-      "Experienced in youth health advocacy research with the WHO, writing policy briefs, and biosecurity research.",
+      "Co-developed a risk index for AI-enabled biological tools in collaboration with RAND Europe and CLTR, and circulated findings among UK, EU, and US governments.",
+      "Selected as a 2025 UNODA Biosecurity Fellow.",
+      "Research background spanning youth health advocacy with the WHO, policy brief writing, and biosecurity analysis.",
     ],
   },
   {
