@@ -167,30 +167,35 @@ const page = () => {
         <div className="min-h-screen bg-gray-50 py-12 px-4">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 h-full">
-              {advisors.map(({ id, image, name, bulletPoints }) => (
+              {advisors.map(({ id, image, name, bulletPoints, link }) => (
                 <div
                   key={id}
                   className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
                 >
-                  {/* Founder Photo */}
+                  {/* Advisors Photo */}
                   <div className="mb-6">
                     <div className="w-32 h-32 relative">
-                      <Image
-                        src={image}
-                        alt={name}
-                        fill
-                        className="rounded-full object-cover border-4 border-gray-200"
-                      />
+                      <a href={link} target="_blank" rel="noopener noreferrer">
+                        <Image
+                          src={image}
+                          alt={name}
+                          fill
+                          className="rounded-full object-cover border-4 border-gray-200"
+                        />
+                      </a>
                     </div>
                   </div>
                   {/* Name */}
                   <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                    {name}
+                    <a
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:pointer"
+                    >
+                      {name}
+                    </a>
                   </h2>
-                  {/* Title
-                  <h3 className="text-lg font-semibold text-oceanGreen mb-6">
-                    {title}
-                  </h3> */}
                   {/* Bullet Points */}
                   <div className="flex-1 text-left">
                     <ul className="space-y-3">
