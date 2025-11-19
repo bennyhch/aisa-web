@@ -46,19 +46,32 @@ const page = () => {
                 >
                   {/* Founder Photo */}
                   <div className="mb-6">
-                    <div className="w-32 h-32 relative">
-                      <Image
-                        src={founder.image}
-                        alt={founder.name}
-                        fill
-                        className="rounded-full object-cover border-4 border-gray-200"
-                      />
-                    </div>
+                    <a
+                      href={founder.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <div className="w-32 h-32 relative">
+                        <Image
+                          src={founder.image}
+                          alt={founder.name}
+                          fill
+                          className="rounded-full object-cover border-4 border-gray-200"
+                        />
+                      </div>
+                    </a>
                   </div>
 
                   {/* Name */}
                   <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                    {founder.name}
+                    <a
+                      href={founder.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:pointer"
+                    >
+                      {founder.name}
+                    </a>
                   </h2>
 
                   {/* Title */}
@@ -90,48 +103,59 @@ const page = () => {
         <div className="min-h-screen bg-gray-50 py-12 px-4">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 h-full">
-              {teamMembers.map(({ id, image, name, bulletPoints, title }) => (
-                <div
-                  key={id}
-                  className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
-                >
-                  {/* Founder Photo */}
-                  <div className="mb-6">
-                    <div className="w-32 h-32 relative">
-                      <Image
-                        src={image}
-                        alt={name}
-                        fill
-                        className="rounded-full object-cover border-4 border-gray-200"
-                      />
+              {teamMembers.map(
+                ({ id, image, name, bulletPoints, title, link }) => (
+                  <div
+                    key={id}
+                    className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
+                  >
+                    {/* Team Members Photo */}
+                    <div className="mb-6">
+                      <a href={link} target="_blank" rel="noopener noreferrer">
+                        <div className="w-32 h-32 relative">
+                          <Image
+                            src={image}
+                            alt={name}
+                            fill
+                            className="rounded-full object-cover border-4 border-gray-200"
+                          />
+                        </div>
+                      </a>
+                    </div>
+
+                    {/* Name */}
+                    <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                      <a
+                        href={link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:pointer"
+                      >
+                        {name}
+                      </a>
+                    </h2>
+
+                    {/* Title */}
+                    <h3 className="text-lg font-semibold text-oceanGreen mb-6">
+                      {title}
+                    </h3>
+
+                    {/* Bullet Points */}
+                    <div className="flex-1 text-left">
+                      <ul className="space-y-3">
+                        {bulletPoints.map((point, index) => (
+                          <li key={index} className="flex items-start">
+                            <span className="w-1 h-1 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                            <span className="text-gray-700 leading-relaxed">
+                              {point}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
-
-                  {/* Name */}
-                  <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                    {name}
-                  </h2>
-
-                  {/* Title */}
-                  <h3 className="text-lg font-semibold text-oceanGreen mb-6">
-                    {title}
-                  </h3>
-
-                  {/* Bullet Points */}
-                  <div className="flex-1 text-left">
-                    <ul className="space-y-3">
-                      {bulletPoints.map((point, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="w-1 h-1 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                          <span className="text-gray-700 leading-relaxed">
-                            {point}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
+                )
+              )}
             </div>
           </div>
         </div>
