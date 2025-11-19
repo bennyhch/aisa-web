@@ -9,6 +9,7 @@ const founders = [
       "Recognized leader in AI governance and listed among 100 Brilliant Women in AI Ethics for 2024.",
       "Founding member of the UN University Macau AI Network and OECD.AI Experts Group on AI, Data, and Privacy.",
     ],
+    link: "https://www.linkedin.com/in/lyantoniettechua/",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const founders = [
       "Led the APAC business of a late-stage startup with over $100M raised.",
       "Former board member of Amnesty International Hong Kong and advisor to multiple corporate-NGO initiatives.",
     ],
+    link: "https://www.linkedin.com/in/edward-tsoi-9458b57a/",
   },
   {
     id: 3,
@@ -32,6 +34,7 @@ const founders = [
       "Head of Data and AI Ecosystems at the World Economic Forum (WEF), established the AI Governance Alliance.",
       "Led initiatives to promote inclusive AI at Google.",
     ],
+    link: "https://www.linkedin.com/in/supheakmungkol-sarin/",
   },
 ];
 
