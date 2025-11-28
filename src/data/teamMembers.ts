@@ -1,7 +1,7 @@
 const teamMembers = [
   {
     id: 1,
-    name: "NONYO MITRA",
+    name: "ANONYO MITRA",
     title: "Capacity Building",
     image: "/team/Anonyo.jpg",
     bulletPoints: [
@@ -9,6 +9,7 @@ const teamMembers = [
       "Formally led Teach For India’s strategy and operations.",
       "Researches on AI governance and safety, with a focus on making AI safety easily accessible to non-technical but vital stakeholders such as policymakers and state actors.",
     ],
+    link: "https://www.linkedin.com/in/anonyo-mitra/?originalSubdomain=in",
   },
   {
     id: 3,
@@ -20,6 +21,7 @@ const teamMembers = [
       "Co-ordinated large-scale regional and global public affairs projects and provided media strategies for multilateral organisations including COP28, the APEC Secretariat, Asian Development Bank.",
       "Managed award-winning nation branding project for the Government of Mongolia.",
     ],
+    link: "https://www.linkedin.com/in/leungmelissa/",
   },
   {
     id: 4,
@@ -30,6 +32,7 @@ const teamMembers = [
       "Researcher at AISA",
       "Senior at Sciences Po Paris and Columbia University in the City of New York",
     ],
+    link: "https://www.linkedin.com/in/philip-tham-22572319a/",
   },
   {
     id: 5,
@@ -41,6 +44,7 @@ const teamMembers = [
       "Recognized as Top Female Founder by EIT Health Austria.",
       "Experienced in youth health advocacy research with the WHO, writing policy briefs, and biosecurity research.",
     ],
+    link: "https://www.linkedin.com/in/ptnhean/",
   },
   {
     id: 6,
@@ -51,6 +55,7 @@ const teamMembers = [
       "Master of Arts degree in Communication, Culture, and Technology, where she focused on media systems design and technology policy.",
       "Passionate about fostering collaborative efforts to enhance connectivity in the socio-technical systems of developing regions, leveraging diverse perspectives to create inclusive and impactful solutions through innovation and technology governance.",
     ],
+    link: "https://www.linkedin.com/in/zar-motik-a-6ba087253/",
   },
 ];
 
