@@ -1,13 +1,116 @@
+import Image from "next/image";
+import Link from "next/link";
 import H2 from "@/components/H2";
 import HorizontalLine from "@/components/HorizontalLine";
 import PageWrapper from "@/components/PageWrapper";
 import topics from "@/data/topics";
-import Image from "next/image";
-import Link from "next/link";
+
+// app/page.tsx
+import type { Metadata } from "next";
+import Script from "next/script";
+
+export const metadata: Metadata = {
+  title:
+    "AI Safety Asia (AISA) | Building Asia as a Safe & Responsible AI Innovator",
+  description:
+    "AI Safety Asia (AISA): Non-profit making Asia a global hub for safe, responsible AI via expert forums, governance research & capacity-building.",
+  keywords: [
+    "AI safety",
+    "AI governance",
+    "Asia",
+    "public policy",
+    "global affairs",
+    "responsible AI",
+    "NGO",
+    "AI policy Asia",
+    "non-profit organization",
+    "AI research Asia",
+    "artificial intelligence Asia",
+  ],
+
+  alternates: {
+    canonical: "https://aisafety.asia/",
+  },
+
+  openGraph: {
+    title: "AI Safety Asia (AISA) | Safe & Responsible AI Innovation in Asia",
+    description:
+      "AISA advances regionally grounded AI governance through convening, research, and capacity building across Asia.",
+    url: "https://aisafety.asia/",
+    siteName: "AI Safety Asia",
+    type: "website",
+    images: [
+      {
+        url: "/skyscraper_night.png",
+        width: 1200,
+        height: 630,
+        alt: "Skyscrapers at night in Asia",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Safety Asia (AISA) | Safe & Responsible AI Innovation in Asia",
+    description:
+      "A global non-profit dedicated to safe, responsible AI innovation across Asia.",
+    images: ["/skyscraper_night.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1, // allow unlimited text snippet in search
+      "max-image-preview": "large", // allow large thumbnail
+      "max-video-preview": -1, // allow unlimited video preview
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
+const jsonLd = {
+  __html: JSON.stringify([
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "AI Safety Asia (AISA)",
+      alternateName: "AISA",
+      url: "https://aisafety.asia/",
+      logo: "https://aisafety.asia/logo.png",
+      description:
+        "AI Safety Asia (AISA) is a global non-profit dedicated to building Asia as a globally-leading safe and responsible AI innovator.",
+      foundingDate: "2024",
+      areaServed: "Asia",
+      sameAs: ["https://www.linkedin.com/company/ai-safety-asia"],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "AI Safety Asia (AISA)",
+      url: "https://aisafety.asia/",
+      description:
+        "AISA advances safe and responsible AI innovation across Asia.",
+      publisher: {
+        "@type": "Organization",
+        name: "AI Safety Asia (AISA)",
+      },
+    },
+  ]),
+};
 
 export default function Home() {
   return (
     <PageWrapper>
+      <Script
+        id="json-ld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={jsonLd}
+      />
       <header className="min-h-[90vh] flex flex-col justify-center py-[1.75rem] sm:py-8 px-6 sm:px-12 md:px-20 lg:px-28 bg-slate-50">
         <h1 className="text-oceanGreen text-4xl sm:text-5xl md:text-7_5xl font-extrabold leading-tight">
           <span className="block">Building Asia as a</span>
@@ -116,7 +219,6 @@ export default function Home() {
       </section>
 
       <section>
-        {/* <div> */}
         <Image
           src="/evening.png"
           alt="evening skyline in Asia"
@@ -124,7 +226,6 @@ export default function Home() {
           height={500}
           className="object-contain w-full"
         />
-        {/* </div> */}
       </section>
     </PageWrapper>
   );

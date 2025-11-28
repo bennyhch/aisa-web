@@ -14,10 +14,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "AI Safety Asia",
-  description:
-    "Global non-profit dedicated to the international governance of safe and secure AI - the Asia Way",
+export const metadata = {
+  metadataBase: new URL("https://aisafety.asia"),
+  title: {
+    default: "AI Safety Asia",
+    template: "%s | AI Safety Asia",
+  },
 };
 
 export default function RootLayout({
