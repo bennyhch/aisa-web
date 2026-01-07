@@ -13,7 +13,7 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: "MESLISSA LEUNG",
+    name: "MELISSA LEUNG",
     title: "Communications ",
     image: "/team/Melissa.jpg",
     bulletPoints: [
@@ -36,19 +36,21 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: "P.T. Nhean",
+    name: "P.T. NHEAN",
     title: "Director of Biosecurity",
     image: "/team/PT.jpeg",
     bulletPoints: [
       "Specialized in AI-Bio, working closely with Center For Long Term Resilience.",
       "Recognized as Top Female Founder by EIT Health Austria.",
-      "Experienced in youth health advocacy research with the WHO, writing policy briefs, and biosecurity research.",
+      "Co-developed a risk index for AI-enabled biological tools in collaboration with RAND Europe and CLTR, and circulated findings among UK, EU, and US governments.",
+      "Selected as a 2025 UNODA Biosecurity Fellow.",
+      "Research background spanning youth health advocacy with the WHO, policy brief writing, and biosecurity analysis.",
     ],
     link: "https://www.linkedin.com/in/ptnhean/",
   },
   {
     id: 6,
-    name: "Zar Motik Adisuryo",
+    name: "ZAR MOTIK ADISURYO",
     title: "National Representative of Indonesia",
     image: "/team/Zar.jpg",
     bulletPoints: [

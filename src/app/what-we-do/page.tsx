@@ -75,6 +75,7 @@ const page = () => {
         <H2 heading="OUR FOCUS AREAS" />
         <HorizontalLine />
         <div className="flex flex-col md:flex-row py-20 justify-center gap-6">
+          {/*
           <article className="w-full md:w-[200px] px-3 flex flex-col items-center">
             <div className="flex-shrink-0">
               <Image
@@ -91,7 +92,7 @@ const page = () => {
               AI in climate modeling, disaster response, sustainability
             </p>
           </article>
-
+          */}
           <article className="w-full md:w-[200px] px-3 flex flex-col items-center">
             <div className="flex-shrink-0">
               <Image
@@ -131,6 +132,7 @@ const page = () => {
         <H2 heading="WHERE WE WORK" />
         <HorizontalLine />
         <div className="flex flex-col lg:flex-row p-6 lg:p-30 gap-y-6 lg:gap-x-4 justify-center items-center">
+          {false && (
           <div className="w-full lg:w-1/2">
             <Image
               src="/asiamap.png"
@@ -140,6 +142,7 @@ const page = () => {
               className="object-contain"
             />
           </div>
+          )}
           <article className="w-full lg:w-1/2 text-justify space-y-4">
             <p>
               Asia is home to 60% of the world’s population and is a highly

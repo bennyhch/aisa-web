@@ -50,7 +50,8 @@ const advisors = [
   },
   {
     id: 6,
-    name: "Alejandro REYES",
+    name: "ALEJANDRO REYES",
+    // title: "National Representative of Indonesia",
     image: "/team/REYES.jpg",
     bulletPoints: [
       "Scholar-in-residence at the Asia Society",
