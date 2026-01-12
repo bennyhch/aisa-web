@@ -1,15 +1,15 @@
-import React from "react";
-import Image from "next/image";
-import H2 from "@/components/H2";
-import HorizontalLine from "@/components/HorizontalLine";
-import PageWrapper from "@/components/PageWrapper";
-import initiatives from "@/data/initiatives";
+import React from 'react';
+import Image from 'next/image';
+import H2 from '@/components/H2';
+import HorizontalLine from '@/components/HorizontalLine';
+import PageWrapper from '@/components/PageWrapper';
+import initiatives from '@/data/initiatives';
+import HeroSection from './sections/HeroSection';
 
 const page = () => {
   return (
     <PageWrapper>
-      <H2 heading="WHAT WE DO" />
-      <HorizontalLine />
+      <HeroSection />
 
       <section className="w-full flex justify-center px-4 lg:px-0">
         <div className="w-full lg:w-2/3 py-14 space-y-8">
@@ -52,7 +52,7 @@ const page = () => {
             {content.map((paragraph, i) => (
               <p
                 key={i}
-                className={`mb-5 text-justify ${i === 0 ? "font-bold" : ""}`}
+                className={`mb-5 text-justify ${i === 0 ? 'font-bold' : ''}`}
               >
                 {paragraph}
               </p>
@@ -133,15 +133,15 @@ const page = () => {
         <HorizontalLine />
         <div className="flex flex-col lg:flex-row p-6 lg:p-30 gap-y-6 lg:gap-x-4 justify-center items-center">
           {false && (
-          <div className="w-full lg:w-1/2">
-            <Image
-              src="/asiamap.png"
-              alt="Map of Asia"
-              width={1000}
-              height={500}
-              className="object-contain"
-            />
-          </div>
+            <div className="w-full lg:w-1/2">
+              <Image
+                src="/asiamap.png"
+                alt="Map of Asia"
+                width={1000}
+                height={500}
+                className="object-contain"
+              />
+            </div>
           )}
           <article className="w-full lg:w-1/2 text-justify space-y-4">
             <p>
