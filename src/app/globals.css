@@ -1,7 +1,8 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme inline {
   --color-oceanGreen: #3d9970;
+  --color-darkTeal: #013132;
 
   --text-7_5xl: 5.6rem;
 }

@@ -5,43 +5,14 @@ import HorizontalLine from '@/components/HorizontalLine';
 import PageWrapper from '@/components/PageWrapper';
 import initiatives from '@/data/initiatives';
 import HeroSection from './sections/HeroSection';
+import AlternatingSection from './sections/AlternatingSection';
 
 const page = () => {
   return (
     <PageWrapper>
       <HeroSection />
 
-      <section className="w-full flex justify-center px-4 lg:px-0">
-        <div className="w-full lg:w-2/3 py-14 space-y-8">
-          {/* Header + empty right side */}
-          <div className="flex flex-col lg:flex-row">
-            <header className="text-left w-full lg:w-1/2 px-4 py-5">
-              <h3 className="text-oceanGreen text-4xl font-black">
-                We convene, research, and build capacity to shape the future of
-                AI governance in Asia.
-              </h3>
-            </header>
-            <div className="w-full lg:w-1/2"></div>
-          </div>
-
-          {/* Empty left side + Article */}
-          <div className="flex flex-col lg:flex-row">
-            <div className="w-full lg:w-1/2"></div>
-            <article className="w-full lg:w-1/2 flex flex-col justify-center px-4 py-5 space-y-4">
-              <p>
-                We believe that achieving safe and governed AI begins with
-                building bridges—between generations, disciplines, and regions
-                through actionable steps across our three interrelated program
-                pillars.
-              </p>
-              <p>
-                We strive to minimise the risks of AI adoption while supporting
-                societies to adopt AI safely.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
+      <AlternatingSection />
 
       <section className="flex lg:flex-row flex-col justify-between pt-10 gap-4">
         {initiatives.map(({ id, title, color, content, link }) => (
