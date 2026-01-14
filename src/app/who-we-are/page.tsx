@@ -8,6 +8,7 @@ import Image from 'next/image';
 import HeroSection from './sections/HeroSection';
 import AlternatingSection from './sections/AlternatingSection';
 import Belief from './sections/Belief';
+import Sponsors from './sections/Sponsors';
 
 const page = () => {
   return (
@@ -17,71 +18,6 @@ const page = () => {
       <AlternatingSection />
 
       <Belief />
-      <section>
-        <H2 heading="OUR TEAM" />
-        <HorizontalLine />
-        <div className="min-h-screen bg-gray-50 py-12 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 h-full">
-              {founders.map((founder) => (
-                <div
-                  key={founder.id}
-                  className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
-                >
-                  {/* Founder Photo */}
-                  <div className="mb-6">
-                    <a
-                      href={founder.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div className="w-32 h-32 relative">
-                        <Image
-                          src={founder.image}
-                          alt={founder.name}
-                          fill
-                          className="rounded-full object-cover border-4 border-gray-200"
-                        />
-                      </div>
-                    </a>
-                  </div>
-
-                  {/* Name */}
-                  <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                    <a
-                      href={founder.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:pointer"
-                    >
-                      {founder.name}
-                    </a>
-                  </h2>
-
-                  {/* Title */}
-                  <h3 className="text-lg font-semibold text-oceanGreen mb-6">
-                    {founder.title}
-                  </h3>
-
-                  {/* Bullet Points */}
-                  <div className="flex-1 text-left">
-                    <ul className="space-y-3">
-                      {founder.bulletPoints.map((point, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="w-1 h-1 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                          <span className="text-gray-700 leading-relaxed">
-                            {point}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section>
         <div className="min-h-screen bg-gray-50 py-12 px-4">
@@ -200,19 +136,20 @@ const page = () => {
         </div>
       </section>
 
-      <section>
+      <Sponsors />
+      {/* <section>
         <H2 heading="OUR PARTNERS" />
         <HorizontalLine />
         <div className=" w-full px-5 md:w-2/3 md:mx-auto py-20">
           <Image
-            src="/partners.png"
-            alt="Partners"
+            src="/support-by.png"
+            alt="sponsoring organisations"
             width={1200}
             height={600}
             className="w-full h-auto object-cover"
           />
         </div>
-      </section>
+      </section> */}
     </PageWrapper>
   );
 };
