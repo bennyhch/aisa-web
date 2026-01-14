@@ -7,6 +7,7 @@ import teamMembers from '@/data/teamMembers';
 import Image from 'next/image';
 import HeroSection from './sections/HeroSection';
 import AlternatingSection from './sections/AlternatingSection';
+import Belief from './sections/Belief';
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
 
       <AlternatingSection />
 
+      <Belief />
       <section>
         <H2 heading="OUR TEAM" />
         <HorizontalLine />
