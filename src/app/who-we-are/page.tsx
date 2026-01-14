@@ -6,34 +6,14 @@ import founders from '@/data/founders';
 import teamMembers from '@/data/teamMembers';
 import Image from 'next/image';
 import HeroSection from './sections/HeroSection';
+import AlternatingSection from './sections/AlternatingSection';
 
 const page = () => {
   return (
     <PageWrapper>
       <HeroSection />
-      {/* <section>
-        <H2 heading="WHO WE ARE" />
-        <HorizontalLine />
-        <article className="flex flex-col justify-center py-20 px-8 sm:px-6 md:px-10 gap-y-6 w-full mx-auto text-justify">
-          <p>
-            Established in 2024, AI Safety Asia (AISA) is a global non-profit
-            dedicated to building Asia as a globally-leading safe and
-            responsible AI innovator.
-          </p>
-          <p>
-            We strive to minimise the risks of AI adoption while supporting
-            societies to adopt AI safely.
-          </p>
-          <p>
-            At the core of our mission is the integrated, diverse and
-            collaborative nature of our work. We believe that achieving safe and
-            governed AI begins with building bridges—between generations,
-            disciplines, and regions through actionable steps across our three
-            interrelated program pillars that convene, research and build
-            capacity to shape the future of AI governance in Asia.
-          </p>
-        </article>
-      </section> */}
+
+      <AlternatingSection />
 
       <section>
         <H2 heading="OUR TEAM" />
