@@ -1,15 +1,17 @@
-import H2 from "@/components/H2";
-import HorizontalLine from "@/components/HorizontalLine";
-import PageWrapper from "@/components/PageWrapper";
-import advisors from "@/data/advisors";
-import founders from "@/data/founders";
-import teamMembers from "@/data/teamMembers";
-import Image from "next/image";
+import H2 from '@/components/H2';
+import HorizontalLine from '@/components/HorizontalLine';
+import PageWrapper from '@/components/PageWrapper';
+import advisors from '@/data/advisors';
+import founders from '@/data/founders';
+import teamMembers from '@/data/teamMembers';
+import Image from 'next/image';
+import HeroSection from './sections/HeroSection';
 
 const page = () => {
   return (
     <PageWrapper>
-      <section>
+      <HeroSection />
+      {/* <section>
         <H2 heading="WHO WE ARE" />
         <HorizontalLine />
         <article className="flex flex-col justify-center py-20 px-8 sm:px-6 md:px-10 gap-y-6 w-full mx-auto text-justify">
@@ -31,7 +33,7 @@ const page = () => {
             capacity to shape the future of AI governance in Asia.
           </p>
         </article>
-      </section>
+      </section> */}
 
       <section>
         <H2 heading="OUR TEAM" />
@@ -154,7 +156,7 @@ const page = () => {
                       </ul>
                     </div>
                   </div>
-                )
+                ),
               )}
             </div>
           </div>
