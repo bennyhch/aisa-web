@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="flex flex-col md:flex-row items-start md:items-center md:space-x-12 mb-8">
         <div className="md:w-1/2 mb-6 md:mb-0">
           <SectionHeading
-            title="Building Trus at the Heart of"
+            title="Building Trust at the Heart of"
             highlight="AI's Future in Asia"
           />
         </div>

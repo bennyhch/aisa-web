@@ -9,6 +9,7 @@ import HeroSection from './sections/HeroSection';
 import AlternatingSection from './sections/AlternatingSection';
 import Belief from './sections/Belief';
 import Sponsors from './sections/Sponsors';
+import Principles from './sections/Principles';
 
 const page = () => {
   return (
@@ -18,6 +19,8 @@ const page = () => {
       <AlternatingSection />
 
       <Belief />
+
+      <Principles />
 
       <section>
         <div className="min-h-screen bg-gray-50 py-12 px-4">
