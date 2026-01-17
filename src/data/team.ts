@@ -4,7 +4,7 @@ export const team = [
     name: 'Edward Tsoi',
     title: 'CEO',
     description:
-      'Founder of Connecting Myanmar and experienced leader in technology startups and non-profits.',
+      'Founder of Connecting Myanmar, former board member of Amnesty International Hong Kong, and experienced leader in technology startups and non-profits. He holds a Master of Laws in Human Rights with distinction from the University of Hong Kong and attended the Media Policy Institute organized by the Centre for Socio-Legal Studies, Oxford. ',
     imageSrc: '/team/Edward.jpg',
     linkedinUrl: 'https://www.linkedin.com/in/edward-tsoi-9458b57a/',
   },
@@ -13,7 +13,7 @@ export const team = [
     name: 'Dr. Supheakmungkol Sarin',
     title: 'Chief Research Officer',
     description:
-      'Global leader at the intersection of AI, policy, and human impact.',
+      'A global leader shaping the intersection of AI, policy, and human impact. He advises key institutions like the UN and the World Bank, was a key architect of the AI Governance Alliance at the World Economic Forum where he also convened the inaugural AI Governance Summit, and led inclusive-AI programs at Google that reached over a billion users. His work is deeply informed by his upbringing in post-genocide Cambodia, driving his commitment to ensuring technology serves humanity equitably.',
     imageSrc: '/team/Mungkol.png',
     linkedinUrl: 'https://www.linkedin.com/in/supheakmungkol-sarin/',
   },
@@ -22,7 +22,7 @@ export const team = [
     name: 'Alejandro Reyes',
     title: 'Chief Strategy Officer',
     description:
-      'Scholar and policy expert specialising in global strategy and international governance.',
+      'Scholar-in-residence at the Asia Society. He is adjunct professor in the Department of Politics and Public Administration (PPA) and senior fellow at the Centre on Contemporary China and the World (CCCW) at The University of Hong Kong (HKU). He had previously served in the department in 2002 as a senior policy adviser to the Canadian foreign minister, working on the G8 and a review of Canadian foreign policy. A Hong Kong-based independent consultant from 2001 to 2017, he worked with several foundations and international organizations including the G20 Business Summit, the Clinton Global Initiative, the World Economic Forum and the US-Asia Institute. ',
     imageSrc: '/team/REYES.jpg',
     linkedinUrl: 'https://www.linkedin.com/in/reyesalejandro/',
   },
@@ -31,7 +31,7 @@ export const team = [
     name: 'Wing-Yee Lau',
     title: 'Chief Operations Officer',
     description:
-      'Former Global Head of Strategy with extensive experience in operations and digital media.',
+      'Former Global Head of Strategy for Tiktok. Over 10 years experience across product, content operations and digital media at TikTok, the United Nations and The7stars.',
     imageSrc: '/team/wing-yee.png',
     linkedinUrl: 'https://www.linkedin.com/in/wing-yee-lau/',
   },
@@ -40,7 +40,7 @@ export const team = [
     name: 'Michael L. Bak',
     title: 'Head of Policy and Network',
     description:
-      'Former Head of Policy at Facebook with 25 years of international policy experience.',
+      "Former Head of Policy at Facebook. A policy and digital & human rights professional with 25 years' of international experience working across issues of the political economy including public policy, freedom of expression, digital citizenship, digital rights, tech + democracy, international development, peacebuilding and democratic and crisis governance in diverse contexts.",
     imageSrc: '/team/michael.png',
     // linkedinUrl: 'https://linkedin.com/in/michael-bak',
   },
@@ -49,7 +49,7 @@ export const team = [
     name: 'Ben Goldman',
     title: 'Chief of Staff',
     description:
-      'Focuses on cybersecurity, AI communications, and global diplomacy.',
+      'Cybersecurity and AI PR focus with a background in global diplomacy and conflict resolution. He aided in communications for high-profile clients in AI, cybersecurity, and deep tech, covering everything from graph databases and red teaming to RaaS and pen-testing. He also helped shape how AI is integrated across the agency and support clients on communicating their AI propositions.',
     imageSrc: '/team/ben-goldman.jpg',
     linkedinUrl: 'https://www.linkedin.com/in/ben-goldman-564889ab/',
   },
@@ -75,7 +75,7 @@ export const team = [
     name: 'Gordon Cheung',
     title: 'Product Manager & Software Engineer',
     description:
-      'Data and AI coach recognised for outstanding learner outcomes.',
+      'Data and AI Coach, Recognised as FY25 Champion Coach (top of 200+ coaches) for outstanding learner outcomes and collaboration with Customer Success, contributing to client satisfaction and programme renewals.',
     imageSrc: '/team/gordon.jpg',
     linkedinUrl: 'https://www.linkedin.com/in/gordon-cheung-0108/',
   },
@@ -84,7 +84,7 @@ export const team = [
     name: 'Zar Motik Adisuryo',
     title: 'Policy Lead',
     description:
-      'Policy specialist with a background in communication and technology.',
+      'MA in Communication, Culture, and Technology, Georgetown University, formerly at ITU',
     imageSrc: '/team/Zar.jpg',
     linkedinUrl: 'https://www.linkedin.com/in/zar-motik-a-6ba087253/',
   },
@@ -92,8 +92,7 @@ export const team = [
     id: 11,
     name: 'Priyanka Moonsinghe',
     title: 'Parliament Lead',
-    description:
-      'Consultant specialising in parliamentary and governance affairs.',
+    description: 'Consultant for the Commonwealth Parliamentary Association',
     imageSrc: '/team/priyanka.jpg',
     linkedinUrl: 'https://www.linkedin.com/in/priyanka-moonesinghe-857a4214b/',
   },
@@ -101,7 +100,8 @@ export const team = [
     id: 12,
     name: 'P.T. Nhean',
     title: 'Director of Biosecurity',
-    description: 'Specialist in AI-bio and long-term resilience strategies.',
+    description:
+      'Specialized in AI-Bio, working closely with Center For Long Term Resilience',
     imageSrc: '/team/nhean.png',
     linkedinUrl: 'https://www.linkedin.com/in/ptnhean/',
   },
