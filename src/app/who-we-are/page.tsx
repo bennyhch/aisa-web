@@ -1,15 +1,10 @@
-import H2 from '@/components/H2';
-import HorizontalLine from '@/components/HorizontalLine';
 import PageWrapper from '@/components/PageWrapper';
-import advisors from '@/data/advisors';
-import founders from '@/data/founders';
-import teamMembers from '@/data/teamMembers';
-import Image from 'next/image';
 import HeroSection from './sections/HeroSection';
 import AlternatingSection from './sections/AlternatingSection';
 import Belief from './sections/Belief';
 import Sponsors from './sections/Sponsors';
 import Principles from './sections/Principles';
+import Team from './sections/Team';
 
 const page = () => {
   return (
@@ -22,137 +17,9 @@ const page = () => {
 
       <Principles />
 
-      <section>
-        <div className="min-h-screen bg-gray-50 py-12 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 h-full">
-              {teamMembers.map(
-                ({ id, image, name, bulletPoints, title, link }) => (
-                  <div
-                    key={id}
-                    className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
-                  >
-                    {/* Team Members Photo */}
-                    <div className="mb-6">
-                      <a href={link} target="_blank" rel="noopener noreferrer">
-                        <div className="w-32 h-32 relative">
-                          <Image
-                            src={image}
-                            alt={name}
-                            fill
-                            className="rounded-full object-cover border-4 border-gray-200"
-                          />
-                        </div>
-                      </a>
-                    </div>
-
-                    {/* Name */}
-                    <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                      <a
-                        href={link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:pointer"
-                      >
-                        {name}
-                      </a>
-                    </h2>
-
-                    {/* Title */}
-                    <h3 className="text-lg font-semibold text-oceanGreen mb-6">
-                      {title}
-                    </h3>
-
-                    {/* Bullet Points */}
-                    <div className="flex-1 text-left">
-                      <ul className="space-y-3">
-                        {bulletPoints.map((point, index) => (
-                          <li key={index} className="flex items-start">
-                            <span className="w-1 h-1 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                            <span className="text-gray-700 leading-relaxed">
-                              {point}
-                            </span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                ),
-              )}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <H2 heading="OUR ADVISORS" />
-        <HorizontalLine />
-        <div className="min-h-screen bg-gray-50 py-12 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 h-full">
-              {advisors.map(({ id, image, name, bulletPoints, link }) => (
-                <div
-                  key={id}
-                  className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center text-center"
-                >
-                  {/* Advisors Photo */}
-                  <div className="mb-6">
-                    <div className="w-32 h-32 relative">
-                      <a href={link} target="_blank" rel="noopener noreferrer">
-                        <Image
-                          src={image}
-                          alt={name}
-                          fill
-                          className="rounded-full object-cover border-4 border-gray-200"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  {/* Name */}
-                  <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                    <a
-                      href={link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:pointer"
-                    >
-                      {name}
-                    </a>
-                  </h2>
-                  {/* Bullet Points */}
-                  <div className="flex-1 text-left">
-                    <ul className="space-y-3">
-                      {bulletPoints.map((point, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="w-1 h-1 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                          <span className="text-gray-700 leading-relaxed">
-                            {point}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <Team />
 
       <Sponsors />
-      {/* <section>
-        <H2 heading="OUR PARTNERS" />
-        <HorizontalLine />
-        <div className=" w-full px-5 md:w-2/3 md:mx-auto py-20">
-          <Image
-            src="/support-by.png"
-            alt="sponsoring organisations"
-            width={1200}
-            height={600}
-            className="w-full h-auto object-cover"
-          />
-        </div>
-      </section> */}
     </PageWrapper>
   );
 };
