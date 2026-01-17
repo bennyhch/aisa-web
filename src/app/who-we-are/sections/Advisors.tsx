@@ -1,12 +1,12 @@
 import ProfileCard from '@/components/ProfileCard';
 import SectionHeader from '@/components/SectionHeader';
-import { team } from '@/data/team';
+import advisors from '@/data/advisors';
 
-const Team = () => {
+const Advisors = () => {
   return (
     <section className="w-full max-w-6xl mx-auto px-4 py-16">
       <div className="text-center mb-12">
-        <SectionHeader>Our Team</SectionHeader>
+        <SectionHeader>Our Advisors</SectionHeader>
         <br />
         <p className="text-slate max-w-4xl mx-auto">
           At AI Safety Asia (AISA), our work is built on shared values that
@@ -15,11 +15,10 @@ const Team = () => {
         </p>
       </div>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {team.map(({ name, id, title, description, imageSrc, linkedinUrl }) => (
+        {advisors.map(({ name, id, description, imageSrc, linkedinUrl }) => (
           <ProfileCard
             key={id}
             name={name}
-            title={title}
             description={description}
             imageSrc={imageSrc}
             linkedinUrl={linkedinUrl || ''}
@@ -30,4 +29,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Advisors;

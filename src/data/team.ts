@@ -70,7 +70,6 @@ export const team = [
     imageSrc: '/team/anonyo.png',
     linkedinUrl: 'https://www.linkedin.com/in/anonyo-mitra/',
   },
-
   {
     id: 9,
     name: 'Gordon Cheung',
