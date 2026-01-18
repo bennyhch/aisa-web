@@ -1,9 +1,10 @@
-import H2 from "@/components/H2";
-import HorizontalLine from "@/components/HorizontalLine";
-import PageWrapper from "@/components/PageWrapper";
-import topics from "@/data/topics";
-import Image from "next/image";
-import Link from "next/link";
+import H2 from '@/components/H2';
+import HorizontalLine from '@/components/HorizontalLine';
+import PageWrapper from '@/components/PageWrapper';
+import topics from '@/data/topics';
+import Image from 'next/image';
+import Link from 'next/link';
+import Mission from './sections/Mission';
 
 export default function Home() {
   return (
@@ -20,42 +21,7 @@ export default function Home() {
         </p>
       </header>
 
-      <section className="flex flex-col lg:flex-row lg:items-center text-white bg-oceanGreen">
-        <article className="px-10 sm:px-6 md:px-10 lg:px-24 w-full lg:w-3/5 pt-10 pb-8 text-justify">
-          <h2 className="text-white text-4xl sm:text-5xl font-bold">
-            WHO WE ARE
-          </h2>
-          <p className="pt-8">
-            Established in 2024, AI Safety Asia (AISA) is a global non-profit
-            dedicated to building Asia as a globally-leading safe and
-            responsible AI innovator.
-          </p>
-          <br />
-          <p>
-            We strive to minimise the risks of AI adoption while supporting
-            societies to adopt AI safely.
-          </p>
-          <br />
-          <p>
-            At the core of our mission is the integrated, diverse and
-            collaborative nature of our work. We believe that achieving safe and
-            governed AI begins with building bridges—between generations,
-            disciplines, and regions through actionable steps across our three
-            interrelated program pillars that convene, research and build
-            capacity to shape the future of AI governance in Asia.
-          </p>
-        </article>
-
-        <div className="w-full lg:w-2/5 px-4 sm:px-6 md:px-10 lg:px-24 py-5">
-          <Image
-            src="/skyscraper_night.png"
-            alt="Skyscrapers at night"
-            width={700}
-            height={350}
-            className="object-contain w-full max-w-full h-auto"
-          />
-        </div>
-      </section>
+      <Mission />
 
       {/* WHERE WE WORK */}
       <section>
