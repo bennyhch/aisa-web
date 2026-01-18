@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Sponsors = () => {
   return (
     <section className="flex justify-center flex-col">
-      <SectionHeader>Supported By</SectionHeader>
+      <SectionHeader>Trusted By</SectionHeader>
       <div className="w-full px-5 md:w-2/3 md:mx-auto py-20">
         <Image
           src="/support-by.png"

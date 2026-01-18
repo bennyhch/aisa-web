@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Mission from './sections/Mission';
 import Pillars from './sections/Pillars';
+import Sponsors from './who-we-are/sections/Sponsors';
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
           <Link href="/what-we-do">Explore what we do</Link>
         </p>
       </header>
+
+      <Sponsors />
 
       <Mission />
 

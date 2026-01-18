@@ -30,11 +30,11 @@ const Pillars = () => {
     <section className="w-full max-w-6xl mx-auto px-4 py-16 bg-oceanGreen">
       {/* Top content */}
       <div className="text-center mb-12">
-        <SectionHeader>
+        <SectionHeader colorClass="text-white">
           Foster collaboration, building capacity and advancing research
         </SectionHeader>
         <br />
-        <p className="text-slate max-w-4xl mx-auto">
+        <p className="text-white max-w-4xl mx-auto">
           Three interconnected pillars drive our mission — fostering
           collaboration, building capacity, and advancing research to shap a
           safer and more inclusive AI future for Asia.
