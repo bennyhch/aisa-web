@@ -27,7 +27,7 @@ const PILLARS = [
 
 const Pillars = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-16 bg-oceanGreen">
+    <section className="w-full py-16 rounded-lg bg-oceanGreen px-10">
       {/* Top content */}
       <div className="text-center mb-12">
         <SectionHeader colorClass="text-white">
