@@ -8,6 +8,7 @@ import Mission from './sections/Mission';
 import Pillars from './sections/Pillars';
 import Sponsors from './who-we-are/sections/Sponsors';
 import Articles from './sections/Articles';
+import JoinUs from './sections/JoinUs';
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <Pillars />
 
       <Articles />
+      <JoinUs />
     </PageWrapper>
   );
 }
