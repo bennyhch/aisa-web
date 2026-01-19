@@ -7,6 +7,7 @@ import Link from 'next/link';
 import Mission from './sections/Mission';
 import Pillars from './sections/Pillars';
 import Sponsors from './who-we-are/sections/Sponsors';
+import Articles from './sections/Articles';
 
 export default function Home() {
   return (
@@ -28,6 +29,8 @@ export default function Home() {
       <Mission />
 
       <Pillars />
+
+      <Articles />
     </PageWrapper>
   );
 }
