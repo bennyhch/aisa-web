@@ -63,16 +63,20 @@ const Articles = () => {
       </div>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {articles.map(({ id, title, description, href }) => {
-          return (
-            <ArticleCard
-              key={id}
-              title={title}
-              description={description}
-              href={href}
-            />
-          );
-        })}
+        {articles.map(
+          ({ id, title, description, href, imageSrc, imageAlt }) => {
+            return (
+              <ArticleCard
+                key={id}
+                title={title}
+                description={description}
+                href={href}
+                imageSrc={imageSrc}
+                imageAlt={imageAlt}
+              />
+            );
+          },
+        )}
       </div>
     </section>
   );
