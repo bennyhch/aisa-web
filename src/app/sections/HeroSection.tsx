@@ -1,12 +1,14 @@
 import { SectionHeading } from '@/components/SectionHeading';
+import Image from 'next/image';
 
 function HeroSection() {
   return (
     <section className="relative min-h-screen w-full">
       {/* Background image */}
-      <img
+      <Image
         src="/Hero.png"
         alt="landing background"
+        fill
         className="absolute inset-0 h-full w-full object-cover"
       />
 
