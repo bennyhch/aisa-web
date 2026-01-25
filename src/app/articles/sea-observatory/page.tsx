@@ -1,7 +1,6 @@
 import ArticleLayout from '@/components/ArticleLayout';
-import React from 'react';
 
-const page = () => {
+export default function Page() {
   return (
     <ArticleLayout
       title="SEA Observatory: Born from Necessity, Built for Impact"
@@ -109,6 +108,4 @@ const page = () => {
       </p>
     </ArticleLayout>
   );
-};
-
-export default page;
+}
