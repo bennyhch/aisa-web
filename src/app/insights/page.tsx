@@ -1,32 +1,15 @@
-import H2 from "@/components/H2";
-import HorizontalLine from "@/components/HorizontalLine";
-import PageWrapper from "@/components/PageWrapper";
-import collaborators from "@/data/collaborators";
+import H2 from '@/components/H2';
+import HorizontalLine from '@/components/HorizontalLine';
+import PageWrapper from '@/components/PageWrapper';
+import collaborators from '@/data/collaborators';
+import LatestInsights from './LatestInsights';
 
 const page = () => {
   return (
     <PageWrapper>
-      <section>
-        <H2 heading="HOW WE WORK" />
-        <HorizontalLine />
-        <div className="flex flex-col lg:flex-row justify-between items-start gap-5 py-20 w-full max-w-[750px] mx-auto px-6">
-          <header className="mt-0 lg:mt-0">
-            <h3 className="text-oceanGreen font-bold text-3xl lg:whitespace-nowrap">
-              The principles that guide us:
-            </h3>
-          </header>
-          <article className="mt-10 lg:mt-20">
-            <ul className="flex flex-col gap-y-3 font-bold text-lg list-none">
-              <li>Regionally grounded</li>
-              <li>Multistakeholder and inclusive</li>
-              <li>Evidence-based and future-facing</li>
-              <li>Cross-border collaboration</li>
-            </ul>
-          </article>
-        </div>
-      </section>
+      <LatestInsights />
 
-      <section>
+      {/* <section>
         <H2 heading="HOW WE COLLABORATE" />
         <HorizontalLine />
         <div className="min-h-screen py-6 px-2 md:p-12">
@@ -45,9 +28,9 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section>
+      {/* <section>
         <H2 heading="ENGAGE WITH US" />
         <HorizontalLine />
         <article className="py-15 px-10 md:px-30 text-justify">
@@ -59,7 +42,7 @@ const page = () => {
             minimise the risks of AI adoption while supporting societies to
             adopt AI safely. Our supporters are an integral force in advancing
             our mission, providing the experience, perspectives, and resources
-            that make our work better.{" "}
+            that make our work better.{' '}
           </p>
 
           <br />
@@ -85,7 +68,7 @@ const page = () => {
             responsible AI policies in Asia.
           </p>
         </article>
-      </section>
+      </section> */}
     </PageWrapper>
   );
 };

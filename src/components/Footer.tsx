@@ -1,10 +1,10 @@
-import navItems from "@/data/navItems";
-import Link from "next/link";
-import { FaLinkedin } from "react-icons/fa";
+import navItems from '@/data/navItems';
+import Link from 'next/link';
+import { FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-oceanGreen text-white py-16">
+    <footer className="bg-darkGreen text-white py-16">
       <div className="flex flex-col md:flex-row flex-wrap justify-between gap-y-10 px-4 sm:px-6 md:px-10 lg:px-20">
         {/* Navigation */}
         <nav className="font-bold text-2xl">
