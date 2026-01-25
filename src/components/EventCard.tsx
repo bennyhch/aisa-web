@@ -20,8 +20,6 @@ export function EventCard({
     <article className="rounded-xl bg-white p-6 border border-slate-200 shadow-sm hover:shadow-md transition">
       {/* Top row */}
       <div className="flex items-center gap-4 text-slate-500 text-sm">
-        <FaReact className="text-sky-500 text-xl" />
-
         <div className="flex items-center gap-1">
           <FaMapMarkerAlt />
           <span>{location}</span>
