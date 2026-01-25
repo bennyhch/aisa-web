@@ -3,6 +3,7 @@ import PolicyIcon from '@/components/icons/PolicyIcon';
 import ResearchIcon from '@/components/icons/ResearchIcon';
 import InfoBox from '@/components/InfoBox';
 import SectionHeader from '@/components/SectionHeader';
+import SectionWrapper from '@/components/SectionWrapper';
 
 const PILLARS = [
   {
@@ -27,34 +28,36 @@ const PILLARS = [
 
 const Pillars = () => {
   return (
-    <section className="w-full py-16 rounded-lg bg-oceanGreen px-10">
-      {/* Top content */}
-      <div className="text-center mb-12">
-        <SectionHeader colorClass="text-white">
-          Foster collaboration, building capacity and advancing research
-        </SectionHeader>
-        <br />
-        <p className="text-white max-w-4xl mx-auto">
-          Three interconnected pillars drive our mission — fostering
-          collaboration, building capacity, and advancing research to shap a
-          safer and more inclusive AI future for Asia.
-        </p>
-      </div>
+    <SectionWrapper>
+      <section className="w-full py-16 rounded-lg bg-oceanGreen px-10">
+        {/* Top content */}
+        <div className="text-center mb-12">
+          <SectionHeader colorClass="text-white">
+            Foster collaboration, building capacity and advancing research
+          </SectionHeader>
+          <br />
+          <p className="text-white max-w-4xl mx-auto">
+            Three interconnected pillars drive our mission — fostering
+            collaboration, building capacity, and advancing research to shap a
+            safer and more inclusive AI future for Asia.
+          </p>
+        </div>
 
-      {/* Boxes */}
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {PILLARS.map(({ icon, title, description }) => {
-          return (
-            <InfoBox
-              key={title}
-              icon={icon}
-              title={title}
-              description={description}
-            />
-          );
-        })}
-      </div>
-    </section>
+        {/* Boxes */}
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {PILLARS.map(({ icon, title, description }) => {
+            return (
+              <InfoBox
+                key={title}
+                icon={icon}
+                title={title}
+                description={description}
+              />
+            );
+          })}
+        </div>
+      </section>
+    </SectionWrapper>
   );
 };
 

@@ -12,7 +12,7 @@ const advisors = [
     name: 'DR. HODA A. ALKHZAIMI',
     description:
       'Co-Chair for Global Future Council for Cyber Security at World Economic Forum',
-    imageSrc: '/team/Hoda.jpg',
+    imageSrc: '/team/Hoda.png',
     linkedinUrl: 'https://www.linkedin.com/in/dr-hoda-a-alkhzaimi-b36a3910b/',
   },
   {
@@ -51,7 +51,7 @@ const advisors = [
     name: 'Hammam Riza',
     description:
       'President of KORIKA, delegate to UK AI summit on behalf of Indonesia',
-    imageSrc: '/team/Riza.jpeg',
+    imageSrc: '/team/Riza.png',
     linkedinUrl: 'https://www.linkedin.com/in/hammam-riza-76b2522/',
   },
 ];

@@ -2,6 +2,7 @@ import SectionHeader from '@/components/SectionHeader';
 import articles from '@/data/articles';
 import Link from 'next/link';
 import Image from 'next/image';
+import SectionWrapper from '@/components/SectionWrapper';
 
 type ArticleCardProps = {
   title: string;
@@ -19,8 +20,7 @@ export function ArticleCard({
   imageAlt = '',
 }: ArticleCardProps) {
   return (
-    <div className="overflow-hidden rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow">
-      {/* Image */}
+    <div className="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-md transition-shadow hover:shadow-lg">
       {imageSrc && (
         <div className="relative h-48 w-full">
           <Image
@@ -33,15 +33,19 @@ export function ArticleCard({
         </div>
       )}
 
-      {/* Content */}
-      <div className="p-6">
-        <h3 className="text-lg font-semibold text-black">{title}</h3>
+      <div className="flex flex-1 flex-col p-6">
+        {/* Title: height constrained */}
+        <h3 className="line-clamp-2 text-lg font-semibold leading-snug text-black">
+          {title}
+        </h3>
 
+        {/* Description: now aligned */}
         <p className="mt-2 text-sm text-gray-600">{description}</p>
 
+        {/* CTA pinned */}
         <Link
           href={href}
-          className="mt-4 inline-block text-sm font-medium text-oceanGreen hover:underline"
+          className="mt-auto pt-4 text-sm font-medium text-oceanGreen hover:underline"
         >
           Read more →
         </Link>
@@ -52,7 +56,8 @@ export function ArticleCard({
 
 const Articles = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-16">
+    <SectionWrapper>
+      {/* <section className="w-full max-w-6xl mx-auto px-4 py-16"> */}
       <div className="text-center mb-12">
         <SectionHeader>Knowledge that Drives Change</SectionHeader>
         <p className="text-slate max-w-4xl mx-auto mt-4">
@@ -78,7 +83,8 @@ const Articles = () => {
           },
         )}
       </div>
-    </section>
+      {/* </section> */}
+    </SectionWrapper>
   );
 };
 

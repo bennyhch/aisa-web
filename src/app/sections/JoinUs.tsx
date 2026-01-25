@@ -1,10 +1,12 @@
 import { EventCard } from '@/components/EventCard';
 import SectionHeader from '@/components/SectionHeader';
+import SectionWrapper from '@/components/SectionWrapper';
 import React from 'react';
 
 const JoinUs = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-16">
+    // <section className="w-full max-w-6xl mx-auto px-4 py-16">
+    <SectionWrapper>
       <div className="text-center mb-12">
         <SectionHeader>Join us in Shaping the Future of AI</SectionHeader>
         <p className="text-slate max-w-4xl mx-auto mt-4">
@@ -12,7 +14,7 @@ const JoinUs = () => {
           to advance AI safety and governance across Asia.
         </p>
       </div>
-      <div>
+      <div className="mb-20">
         <EventCard
           location="Meeting Room 9, Bharat Mandapam"
           title="AI Crisis Diplomacy: Asia Leads – Governing Artificial Intelligence in a Fragmented World"
@@ -21,7 +23,8 @@ const JoinUs = () => {
           registerUrl="/"
         />
       </div>
-    </section>
+      {/* </section> */}
+    </SectionWrapper>
   );
 };
 

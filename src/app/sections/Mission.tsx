@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import SectionHeader from '@/components/SectionHeader';
 import { FiChevronDown } from 'react-icons/fi';
+import SectionWrapper from '@/components/SectionWrapper';
 
 const accordionData = [
   {
@@ -39,7 +40,7 @@ export default function Mission() {
   };
 
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-16">
+    <SectionWrapper>
       {/* Header */}
       <div className="text-center mb-12">
         <SectionHeader>Our Mission and Impact</SectionHeader>
@@ -59,7 +60,7 @@ export default function Mission() {
             return (
               <div
                 key={item.title}
-                className="rounded-xl border border-slate-200 p-6 cursor-pointer transition-shadow hover:shadow-md"
+                className="rounded-xl border border-slate-300 p-6 cursor-pointer transition-shadow hover:shadow-md"
                 onClick={() => toggle(index)}
               >
                 <div className="flex items-center justify-between gap-4">
@@ -101,6 +102,6 @@ export default function Mission() {
           />
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }
