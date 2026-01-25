@@ -41,7 +41,7 @@ export function EventCard({
       {/* CTA */}
       <a
         href={registerUrl}
-        className="mt-4 inline-block text-sm font-medium text-sky-600 hover:text-sky-700"
+        className="mt-4 inline-block text-sm font-medium text-oceanGreen hover:underline"
       >
         Register Now →
       </a>

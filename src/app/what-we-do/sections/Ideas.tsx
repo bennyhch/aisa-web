@@ -2,6 +2,7 @@ import { ArticleCard } from '@/app/sections/Articles';
 import SectionHeader from '@/components/SectionHeader';
 import SectionWrapper from '@/components/SectionWrapper';
 import articles from '@/data/articles';
+import insights from '@/data/insights';
 
 const Ideas = () => {
   return (
@@ -16,20 +17,16 @@ const Ideas = () => {
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {articles.map(
-            ({ id, title, description, href, imageSrc, imageAlt }) => {
-              return (
-                <ArticleCard
-                  key={id}
-                  title={title}
-                  description={description}
-                  href={href}
-                  imageSrc={imageSrc}
-                  imageAlt={imageAlt}
-                />
-              );
-            },
-          )}
+          {insights.map(({ id, title, description, href }) => {
+            return (
+              <ArticleCard
+                key={id}
+                title={title}
+                description={description}
+                href={href}
+              />
+            );
+          })}
         </div>
       </section>
     </SectionWrapper>
