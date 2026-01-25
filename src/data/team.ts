@@ -58,7 +58,7 @@ export const team = [
     title: 'Communications Lead',
     description:
       'Led award-winning national branding campaigns for governments.',
-    imageSrc: '/team/melissa1.png',
+    imageSrc: '/team/melissa.png',
     linkedinUrl: 'https://www.linkedin.com/in/leungmelissa/',
   },
   {
@@ -66,7 +66,7 @@ export const team = [
     name: 'Anonyo Mitra',
     title: 'Training Lead',
     description: 'Harvard MPP with experience at Teach for India.',
-    imageSrc: '/team/anonyo1.png',
+    imageSrc: '/team/anonyo.png',
     linkedinUrl: 'https://www.linkedin.com/in/anonyo-mitra/',
   },
   {
