@@ -1,9 +1,10 @@
 import { SectionHeading } from '@/components/SectionHeading';
+import SectionWrapper from '@/components/SectionWrapper';
 import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className="w-full">
+    <SectionWrapper>
       <div className="flex flex-col md:flex-row items-start md:items-center md:space-x-12 mb-8">
         <div className="md:w-1/2 mb-6 md:mb-0">
           <SectionHeading
@@ -35,7 +36,7 @@ const HeroSection = () => {
           className="w-full h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] object-cover rounded-lg"
         />
       </div>
-    </section>
+    </SectionWrapper>
   );
 };
 

@@ -7,7 +7,7 @@ const Sponsors = () => {
     // <section className="w-full max-w-6xl mx-auto px-4 pt-16">
     <SectionWrapper>
       <SectionHeader>Trusted By</SectionHeader>
-      <div className="w-full px-5 md:w-2/3 md:mx-auto py-20">
+      <div className="w-full  py-20">
         <Image
           src="/support-by.png"
           alt="sponsoring organisations"

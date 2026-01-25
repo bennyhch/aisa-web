@@ -20,7 +20,7 @@ export function ArticleCard({
   imageAlt = '',
 }: ArticleCardProps) {
   return (
-    <div className="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-md transition-shadow hover:shadow-lg">
+    <div className="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-md transition-shadow hover:shadow-lg border border-slate-200">
       {imageSrc && (
         <div className="relative h-48 w-full">
           <Image

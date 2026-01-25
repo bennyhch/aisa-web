@@ -1,10 +1,12 @@
 import ProfileCard from '@/components/ProfileCard';
 import SectionHeader from '@/components/SectionHeader';
+import SectionWrapper from '@/components/SectionWrapper';
 import advisors from '@/data/advisors';
 
 const Advisors = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-16">
+    <SectionWrapper>
+      {/* <section className="w-full max-w-6xl mx-auto px-4 py-16"> */}
       <div className="text-center mb-12">
         <SectionHeader>Our Advisors</SectionHeader>
         <br />
@@ -25,7 +27,8 @@ const Advisors = () => {
           />
         ))}
       </div>
-    </section>
+      {/* </section> */}
+    </SectionWrapper>
   );
 };
 

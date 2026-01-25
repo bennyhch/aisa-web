@@ -1,5 +1,6 @@
 import InfoBox from '@/components/InfoBox';
 import SectionHeader from '@/components/SectionHeader';
+import SectionWrapper from '@/components/SectionWrapper';
 import PolicyIcon from '@/components/icons/PolicyIcon';
 
 export const PRINCIPLES = [
@@ -37,7 +38,8 @@ export const PRINCIPLES = [
 
 const Principles = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 py-16 bg-paleGray">
+    <SectionWrapper>
+      {/* <section className="w-full max-w-6xl mx-auto px-4 py-16 bg-paleGray"> */}
       {/* Top content */}
       <div className="text-center mb-12">
         <SectionHeader>
@@ -64,7 +66,8 @@ const Principles = () => {
           );
         })}
       </div>
-    </section>
+      {/* </section> */}
+    </SectionWrapper>
   );
 };
 

@@ -1,3 +1,4 @@
+import SectionWrapper from '@/components/SectionWrapper';
 import Image from 'next/image';
 
 function TimelineItem({ year, text }: { year: string; text: string }) {
@@ -46,45 +47,48 @@ function TimelineBox() {
 
 const Belief = () => {
   return (
-    <section className="flex flex-col md:flex-row w-full">
-      {/* Left: Image */}
-      <div className="relative w-full md:w-1/2 h-64 md:h-[400px]">
-        <Image
-          src="/building-under-sky.jpg"
-          alt="Building under blue sky"
-          fill
-          className="object-cover"
-          priority
-        />
-      </div>
+    <SectionWrapper>
+      <section className="flex flex-col md:flex-row w-full">
+        {/* Left: Image */}
+        <div className="relative w-full md:w-1/2 h-64 md:h-[400px]">
+          <Image
+            src="/building-under-sky.jpg"
+            alt="Building under blue sky"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
 
-      {/* Right: Text */}
-      <div className="w-full md:w-1/2 flex flex-col justify-center px-6 py-8 md:px-10">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-4">
-          Born from Collaboration, Built for the Region
-        </h2>
-        <p>
-          AI Safety Asia (AISA) began with a simple belief — that the future of
-          artificial intelligence in Asia should be shaped by collaboration, not
-          competition.{' '}
-        </p>{' '}
-        <br />
-        <p>
-          Across the region, AI is evolving faster than the frameworks that
-          govern it. Researchers, policymakers, and civil society all face the
-          same challenge: how to harness innovation without losing human values.{' '}
-        </p>{' '}
-        <br />
-        <p>
-          AISA was founded to bridge these worlds — turning dialogue into
-          strategy, research into action, and regional diversity into shared
-          strength. By connecting experts across borders, we’re helping Asia
-          lead with empathy, foresight, and purpose.
-        </p>
-        <br />
-        <TimelineBox />
-      </div>
-    </section>
+        {/* Right: Text */}
+        <div className="w-full md:w-1/2 flex flex-col justify-center px-6 py-8 md:px-10">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+            Born from Collaboration, Built for the Region
+          </h2>
+          <p>
+            AI Safety Asia (AISA) began with a simple belief — that the future
+            of artificial intelligence in Asia should be shaped by
+            collaboration, not competition.{' '}
+          </p>{' '}
+          <br />
+          <p>
+            Across the region, AI is evolving faster than the frameworks that
+            govern it. Researchers, policymakers, and civil society all face the
+            same challenge: how to harness innovation without losing human
+            values.{' '}
+          </p>{' '}
+          <br />
+          <p>
+            AISA was founded to bridge these worlds — turning dialogue into
+            strategy, research into action, and regional diversity into shared
+            strength. By connecting experts across borders, we’re helping Asia
+            lead with empathy, foresight, and purpose.
+          </p>
+          <br />
+          <TimelineBox />
+        </div>
+      </section>
+    </SectionWrapper>
   );
 };
 
