@@ -21,8 +21,9 @@ const HeroSection = () => {
           </p>
           <br />
           <p>
-            Our work ensures that Asia's AI future is not only innovative, but
-            also accountable and human-centered.
+            {
+              "Our work ensures that Asia's AI future is not only innovative, but also accountable and human-centered."
+            }
           </p>
         </article>
       </div>

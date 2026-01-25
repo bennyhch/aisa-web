@@ -4,6 +4,7 @@ import { useState } from 'react';
 import SectionHeader from '@/components/SectionHeader';
 import { FiChevronDown } from 'react-icons/fi';
 import SectionWrapper from '@/components/SectionWrapper';
+import Image from 'next/image';
 
 const accordionData = [
   {
@@ -95,10 +96,13 @@ export default function Mission() {
 
         {/* Right: Image */}
         <div className="w-full">
-          <img
+          <Image
             src="/nasa-globe.jpg"
             alt="Mission and impact"
+            width={1600}
+            height={900}
             className="w-full h-auto rounded-2xl object-cover"
+            sizes="100vw"
           />
         </div>
       </div>
