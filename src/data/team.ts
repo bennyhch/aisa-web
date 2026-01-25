@@ -41,8 +41,7 @@ export const team = [
     title: 'Head of Policy and Network',
     description:
       "Former Head of Policy at Facebook. A policy and digital & human rights professional with 25 years' of international experience working across issues of the political economy including public policy, freedom of expression, digital citizenship, digital rights, tech + democracy, international development, peacebuilding and democratic and crisis governance in diverse contexts.",
-    imageSrc: '/team/michael.png',
-    // linkedinUrl: 'https://linkedin.com/in/michael-bak',
+    imageSrc: '/team/michael1.png',
   },
   {
     id: 6,

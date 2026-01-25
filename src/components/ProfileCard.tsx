@@ -25,7 +25,8 @@ function ProfileCard({
     >
       <article className="flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-md transition hover:shadow-lg">
         {/* Image */}
-        <div className="relative h-56 w-full">
+        {/* <div className="relative h-56 w-full"> */}
+        <div className="relative w-full aspect-square">
           <Image
             src={imageSrc}
             alt={name}
