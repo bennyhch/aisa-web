@@ -114,7 +114,8 @@ const Header = () => {
 
                 <li className="border-t">
                   <Link
-                    href="/get-involved"
+                    href="https://www.linkedin.com/company/ai-safety-asia/"
+                    target="_blank"
                     className="block px-4 py-3 text-sm font-semibold text-oceanGreen"
                     onClick={() => setIsOpen(false)}
                   >
