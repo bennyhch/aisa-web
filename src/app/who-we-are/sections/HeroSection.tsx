@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className="md:w-3/5 mb-6 md:mb-0">
           <SectionHeading
             title="Building Trust at the Heart of"
-            highlight="AI's Future in Asia"
+            highlight="Asia’s AI Future"
           />
         </div>
         <article className="md:w-2/5 text-gray-700 text-lg ">
@@ -22,7 +22,7 @@ const HeroSection = () => {
           <br />
           <p>
             Our mission is to help Asia lead the way in developing AI that
-            uplifts communities, proects values, and serves humanity with
+            uplifts communities, protects values, and serves humanity with
             integrity.
           </p>
         </article>

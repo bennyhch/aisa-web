@@ -15,13 +15,13 @@ const PILLARS = [
   {
     title: 'Knowledge Ecosystem',
     description:
-      'We empower leaders, educators, and young professionals with the knowledge and tools to use AI responsibly. Our programs inspire ethical leadership and practical action across Asia.',
+      'We empower policy leaders, researchers, academics, civil society and young professionals with the knowledge to influence responsible AI policy. Our programs inspire ethical leadership and practical action across Asia.',
     icon: <KnowledgeIcon />,
   },
   {
     title: 'Research & Governance Studies',
     description:
-      'We turn research into real-world impact. By analyzing trends and developing evidence-based insights, we help governments and institutions design AI policies that protect people and promote progress.',
+      'We turn research into real-world impact. By analysing trends and developing evidence-based insights, we help governments and institutions design AI policies that protect people and promote progress.',
     icon: <ResearchIcon />,
   },
 ];
@@ -38,8 +38,8 @@ const Pillars = () => {
           <br />
           <p className="text-white max-w-4xl mx-auto">
             Three interconnected pillars drive our mission — fostering
-            collaboration, building capacity, and advancing research to shap a
-            safer and more inclusive AI future for Asia.
+            collaboration, building capacity, and advancing research — to shape
+            a safer and more inclusive AI future for Asia.
           </p>
         </div>
 

@@ -7,7 +7,7 @@ export const PRINCIPLES = [
   {
     title: 'Regionally grounded',
     description:
-      'We bring Asia-Pacific expertise to global AI governance conversations, ensuring regional realities shape international frameworks. Our grounding in local contexts—from Jakarta to Seoul—enables us to bridge the Global AI Divide with authenticity and impact.',
+      'We bring Asia-Pacific expertise to global AI governance conversations, ensuring regional realities shape international frameworks. Our grounding in local contexts enables us to bridge the Global AI Divide with authenticity and impact.',
     icon: <PolicyIcon />,
   },
   {

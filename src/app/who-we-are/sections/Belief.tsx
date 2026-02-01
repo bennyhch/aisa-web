@@ -38,7 +38,7 @@ function TimelineBox() {
         />
         <TimelineItem
           year="2026"
-          text="Pre-summit events at the India AI Summit 2026."
+          text="Official Main Agenda Session at India AI Impact Summit."
         />
       </div>
     </section>
@@ -75,7 +75,7 @@ const Belief = () => {
             Across the region, AI is evolving faster than the frameworks that
             govern it. Researchers, policymakers, and civil society all face the
             same challenge: how to harness innovation without losing human
-            values.{' '}
+            values and agency.{' '}
           </p>{' '}
           <br />
           <p>

@@ -11,16 +11,16 @@ const accordionData = [
     eyebrow: 'Who We Are',
     title: 'Building a Trusted Future for AI in Asia',
     content: [
-      'AI Safety Asia (AISA) is a Asia-based non-profit dedicated to building Asia as a globally-leading safe and responsible AI innovator.',
+      'AI Safety Asia (AISA) is an Asian non-profit dedicated to building the region as a globally leading safe and responsible AI innovator.',
       'We strive to minimise the risks of AI adoption while supporting societies to adopt AI safely.',
-      'At the core of our mission is the integrated, diverse and collaborative nature of our work. We believe that achieving safe and governed AI begins with building bridges—between generations, disciplines, and regions through actionable steps across our three interrelated program pillars that foster collaboration, building capacity and advancing research that creates the architecture of an Asian Knowledge Ecosystem to shape the future of AI governance in Asia.',
+      'At the core of our mission is the integrated, diverse and collaborative nature of our work. We believe that achieving safe and governed AI begins with building bridges—between generations, disciplines and regions through actionable steps across our three interrelated programme pillars that foster collaboration, build capacity and advance research that creates the architecture of an Asian Knowledge Ecosystem to shape the future of AI governance in Asia.',
     ],
   },
   {
     eyebrow: 'What We Do',
     title: 'Turning Insight into Action for Safer AI',
     content: [
-      'Our work is built around three pillars — Foster collaboration, building capacity and advancing research. We convene policymakers and experts, equip leaders with practical knowledge, and produce research and other knowledge products from Asian experts to help guide AI governance across the region.',
+      'Our work is built around three pillars — Foster collaboration, build capacity and advance research. We convene policymakers and experts, equip leaders with practical knowledge, and produce research and other knowledge products from Asian experts to help guide AI governance across the region.',
     ],
   },
   {

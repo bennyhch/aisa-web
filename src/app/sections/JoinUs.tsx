@@ -5,12 +5,11 @@ import React from 'react';
 
 const JoinUs = () => {
   return (
-    // <section className="w-full max-w-6xl mx-auto px-4 py-16">
     <SectionWrapper>
       <div className="text-center mb-12">
         <SectionHeader>Join us in Shaping the Future of AI</SectionHeader>
         <p className="text-slate max-w-4xl mx-auto mt-4">
-          Participate in our summits, training programs, and regional dialogues
+          Participate in our seminars, training programs, and regional dialogues
           to advance AI safety and governance across Asia.
         </p>
       </div>

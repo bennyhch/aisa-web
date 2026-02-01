@@ -16,7 +16,7 @@ const HeroSection = () => {
           <p>
             AI is evolving fast — but safety, ethics, and inclusivity must
             evolve faster. At AI Safety Asia (AISA), we transform research and
-            collaboration into real chagne — from policy design to regional
+            collaboration into real change — from policy design to regional
             training and multi-country studies.
           </p>
           <br />
