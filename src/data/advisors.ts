@@ -9,7 +9,7 @@ const advisors = [
   },
   {
     id: 2,
-    name: 'DR. HODA A. ALKHZAIMI',
+    name: 'Hoda A. Alkhzaimi',
     description:
       'Co-Chair for Global Future Council for Cyber Security at World Economic Forum',
     imageSrc: '/team/Hoda.png',
@@ -17,7 +17,7 @@ const advisors = [
   },
   {
     id: 3,
-    name: 'ROBERT TRAGER',
+    name: 'Robert Trager',
     description: 'Co-Director of the Oxford Martin AI Governance Initiative',
     imageSrc: '/team/robert.jpeg',
     linkedinUrl: '',
@@ -32,7 +32,7 @@ const advisors = [
   },
   {
     id: 5,
-    name: 'IMA ABDULRAHIM',
+    name: 'Ima Abdulrahim',
     description:
       'Former Public Policy Director for Southeast Asia at Meta, Former Executive Director of the Habibie Center ',
     imageSrc: '/team/Ima.jpeg',

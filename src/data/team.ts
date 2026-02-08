@@ -37,7 +37,7 @@ export const team = [
   },
   {
     id: 5,
-    name: 'Michael L. Bak',
+    name: 'Michael L. Bąk',
     title: 'Head of Policy and Network',
     description:
       "Former Head of Policy at Facebook. A policy and digital & human rights professional with 25 years' of international experience working across issues of the political economy including public policy, freedom of expression, digital citizenship, digital rights, tech + democracy, international development, peacebuilding and democratic and crisis governance in diverse contexts.",
@@ -54,6 +54,24 @@ export const team = [
   },
   {
     id: 7,
+    name: 'Adrian Mak',
+    title: 'Chief of Staff (Global Affairs)',
+    description:
+      "Adrian bridges AI governance and international dispute resolution as the inaugural Fellow at Stanford Law's AI Initiative and Chief of Staff (Global Affairs) at AI Safety Asia. His research on AI governance, liability, and policy has been published by Cambridge University Press and Hart Publishing. A Stanford LL.M. graduate and lawyer admitted in New York and Hong Kong, he is an active international arbitrator and mediator who has served as a resource person to the Asian Development Bank.",
+    imageSrc: '/team/adrian.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/adrian-mak-hk/',
+  },
+  {
+    id: 8,
+    name: 'Dr. Melody Shum',
+    title: 'Chief of Staff (Research)',
+    description:
+      "Interdisciplinary scholar-practitioner bridging history, AI, and societal impact. She led applied research projects for the EU, USAID, and the NHS. She also taught AI safety and governance courses for the Center for AI Safety and Safe AI London. A socio-legal historian of Southeast Asia, her work examined the co-development of social movements in Vietnam and China. She won awards and fellowships from the Chiang Ching-kuo Foundation, the American Council of Learned Societies, and the Vietnamese Studies Group, with residencies at the Academia Sinica, the École française d'Extrême-Orient Hanoi, and the École Normale Supérieure Paris. She holds a Ph.D. from Northwestern University.",
+    imageSrc: '/team/melody.jpeg',
+    linkedinUrl: 'https://www.linkedin.com/in/shummelody/',
+  },
+  {
+    id: 9,
     name: 'Melissa Leung',
     title: 'Communications Lead',
     description:
@@ -62,7 +80,7 @@ export const team = [
     linkedinUrl: 'https://www.linkedin.com/in/leungmelissa/',
   },
   {
-    id: 8,
+    id: 10,
     name: 'Anonyo Mitra',
     title: 'Training Lead',
     description: 'Harvard MPP with experience at Teach for India.',
@@ -70,7 +88,7 @@ export const team = [
     linkedinUrl: 'https://www.linkedin.com/in/anonyo-mitra/',
   },
   {
-    id: 9,
+    id: 11,
     name: 'Gordon Cheung',
     title: 'Product Manager & Software Engineer',
     description:
@@ -79,16 +97,16 @@ export const team = [
     linkedinUrl: 'https://www.linkedin.com/in/gordon-cheung-0108/',
   },
   {
-    id: 10,
+    id: 12,
     name: 'Zar Motik Adisuryo',
     title: 'Policy Lead',
     description:
-      'MA in Communication, Culture, and Technology, Georgetown University, formerly at ITU',
+      'Zar Motik Adisuryo is the Policy Lead at AI Safety Asia and formerly served as the National Representative of Indonesia. Her work focuses on global comparative policy studies in the field of technology governance in the US, EU, UK and Indonesia, bridging policy research and implementation through national, regional and international collaboration. Her current research interests include online disinformation and the social construction of technology in society. She holds an MA in Communication, Culture, and Technology from Georgetown University, Washington D.C',
     imageSrc: '/team/Zar.jpg',
     linkedinUrl: 'https://www.linkedin.com/in/zar-motik-a-6ba087253/',
   },
   {
-    id: 11,
+    id: 13,
     name: 'Priyanka Moonsinghe',
     title: 'Parliament Lead',
     description: 'Consultant for the Commonwealth Parliamentary Association',
@@ -96,11 +114,11 @@ export const team = [
     linkedinUrl: 'https://www.linkedin.com/in/priyanka-moonesinghe-857a4214b/',
   },
   {
-    id: 12,
+    id: 14,
     name: 'P.T. Nhean',
     title: 'Director of Biosecurity',
     description:
-      'Specialized in AI-Bio, working closely with Center For Long Term Resilience',
+      'P.T. is the Director of Biosecurity at AISA, leading research, capacity building, and convening programs on AI-Bio, starting with Southeast Asia. She was selected as 1 of 20 fellows (from 2,400+ applicants, 100+ countries) for Biosecurity Fellowship 2025 cohort at Biological Weapons Convention (BWC) Meeting of States in Geneva. P.T. has contributed to UK Government DNA synthesis screening guidance and co-developed a global risk index for AI-enabled biological tools with CLTR, RAND Europe, and UK policymakers. She has previously co-founded Southeast Asia Biosecurity (SEA Bio), coordinated Singapore’s Indoor Air Quality (IAQ) pilot study, contributed to WHO’s declaration on youth health, and holds a certificate in EU Non-Proliferation and Disarmament training.',
     imageSrc: '/team/nhean.png',
     linkedinUrl: 'https://www.linkedin.com/in/ptnhean/',
   },
