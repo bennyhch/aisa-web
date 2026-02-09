@@ -54,6 +54,14 @@ const advisors = [
     imageSrc: '/team/Riza.png',
     linkedinUrl: 'https://www.linkedin.com/in/hammam-riza-76b2522/',
   },
+  {
+    id: 8,
+    name: 'Prof. Ying Chan',
+    description:
+      "Prof. Ying Chan, is an editorial and media consultant, China expert, journalist, and e-learning advocate. She is the founding director and professor of the (1999-2016) of the Journalism and Media Studies Centre at The University of Hong Kong, and the founding dean (2003-2011) of the journalism school at Shantou University in China. Prior to that, Chan spent 23 years working as a reporter and editor in New York City. Her honors include a Polk Award, a Nieman Fellowship and an International Freedom of the Press Award by the CPJ. She is the consulting editor for the Chinese edition of the Global Investigative Journalists Network website. She has edited six books on China's media and is the co-founder and director (2004-2016) of the China Media Project",
+    imageSrc: '/team/ying_chan.png',
+    linkedinUrl: 'https://www.linkedin.com/in/yingchan/',
+  },
 ];
 
 export default advisors;

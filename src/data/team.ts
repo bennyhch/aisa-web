@@ -75,15 +75,16 @@ export const team = [
     name: 'Melissa Leung',
     title: 'Communications Lead',
     description:
-      'Led award-winning national branding campaigns for governments.',
+      'Melissa Leung is an integrated policy communications professional with experience in the coordination of large-scale regional and global public affairs projects. She advised governments, multinational companies, and multilateral organizations on strategic communications. She led the design and execution of an award-winning nation branding program for the Government of Mongolia. She also served as International Media Coordinator for one of Taiwan’s Presidential candidates in the 2024 presidential election in Taiwan. Melissa holds a first class honours degree in Journalism from the University of Hong Kong and a Masters Degree in Global Public Policy from the University of London',
     imageSrc: '/team/melissa.png',
     linkedinUrl: 'https://www.linkedin.com/in/leungmelissa/',
   },
   {
     id: 10,
     name: 'Anonyo Mitra',
-    title: 'Training Lead',
-    description: 'Harvard MPP with experience at Teach for India.',
+    title: 'Capacity Building Lead',
+    description:
+      'Anonyo Mitra serves as Capacity Building Lead at AI Safety Asia, where he bridges technical expertise with policy implementation across Southeast Asia. With a Master in Public Policy from Harvard Kennedy School and over a decade of experience spanning technology, education, and AI governance, Anonyo brings strategic depth to complex stakeholder ecosystems. His work centers on translating frontier AI safety frameworks into actionable capacity-building programs for government officials, policymakers, and civil society actors across the Global South. Anonyo led program management initiatives at Teach For India and served as a Bloomberg Harvard City Leadership Initiative Summer Associate, consistently demonstrating expertise in systems design and cross-sector collaboration',
     imageSrc: '/team/anonyo.png',
     linkedinUrl: 'https://www.linkedin.com/in/anonyo-mitra/',
   },
@@ -109,7 +110,8 @@ export const team = [
     id: 13,
     name: 'Priyanka Moonsinghe',
     title: 'Parliament Lead',
-    description: 'Consultant for the Commonwealth Parliamentary Association',
+    description:
+      'Priyanka Moonesinghe serves as the Parliament Lead at AI Safety Asia. She has led programmatic and research initiatives to strengthen the Parliament of Sri Lanka and brings over 12 years of experience as a development practitioner and researcher. Her professional background spans roles with an anti-corruption watchdog in Malaysia, the National Democratic Institute (NDI) in Sri Lanka, and the Institute of National Security Studies Sri Lanka (INSSSL) under the Ministry of Defence. She has also served at the Permanent Mission of Sri Lanka to the United Nations in New York and in the Operations Division of the United Nations Office on Drugs and Crime (UNODC) in Vienna. She holds a Master of Advanced International Studies from the Diplomatic Academy of Vienna and a BA (Hons) in Politics and International Studies from the University of Warwick.',
     imageSrc: '/team/priyanka.jpg',
     linkedinUrl: 'https://www.linkedin.com/in/priyanka-moonesinghe-857a4214b/',
   },
@@ -121,5 +123,14 @@ export const team = [
       'P.T. is the Director of Biosecurity at AISA, leading research, capacity building, and convening programs on AI-Bio, starting with Southeast Asia. She was selected as 1 of 20 fellows (from 2,400+ applicants, 100+ countries) for Biosecurity Fellowship 2025 cohort at Biological Weapons Convention (BWC) Meeting of States in Geneva. P.T. has contributed to UK Government DNA synthesis screening guidance and co-developed a global risk index for AI-enabled biological tools with CLTR, RAND Europe, and UK policymakers. She has previously co-founded Southeast Asia Biosecurity (SEA Bio), coordinated Singapore’s Indoor Air Quality (IAQ) pilot study, contributed to WHO’s declaration on youth health, and holds a certificate in EU Non-Proliferation and Disarmament training.',
     imageSrc: '/team/nhean.png',
     linkedinUrl: 'https://www.linkedin.com/in/ptnhean/',
+  },
+  {
+    id: 15,
+    name: 'Sherly Haristya',
+    title: 'Consultant',
+    description:
+      'Sherly is an Indonesian independent digital governance researcher and consultant with a mission to promote the development and deployment of inclusive and accountable digital technologies, regulations, and governance for the benefit of the many.In collaboration with various national (Indonesia) and international partners, her research and advisory work have been bridging the global and national debates and stakeholders on digital governance issues. She actively engages with policymakers, the press, and larger communities. She earned her PhD in Communication Studies from the Wee Kim Wee School of Communication and Information, Nanyang Technological University, Singapore in 2019. She is the recipient of the 2020 Internet Histories\' Early Career Researcher Award for her article "The Efficacy of Civil Society in Global Internet Governance".',
+    imageSrc: '/team/sherly.jpeg',
+    linkedinUrl: 'https://www.linkedin.com/in/sherly-haristya-9660b842/',
   },
 ];
