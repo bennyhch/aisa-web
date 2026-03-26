@@ -97,12 +97,12 @@ export default function Mission() {
         {/* Right: Image */}
         <div className="w-full">
           <Image
-            src="/nasa-globe.jpg"
+            src="/nasa-globe.webp"
             alt="Mission and impact"
             width={1600}
             height={900}
             className="w-full h-auto rounded-2xl object-cover"
-            sizes="100vw"
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
       </div>

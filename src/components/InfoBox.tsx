@@ -1,5 +1,7 @@
+import Image from 'next/image';
+
 type InfoBoxProps = {
-  icon: React.ReactNode;
+  icon: string;
   title: string;
   description: string;
 };
@@ -7,9 +9,7 @@ type InfoBoxProps = {
 function InfoBox({ icon, title, description }: InfoBoxProps) {
   return (
     <article className="rounded-xl p-6 bg-white shadow-lg">
-      {/* Icon */}
-      <div className="text-2xl mb-4">{icon}</div>
-
+      <Image src={icon} alt={title} width={60} height={60} />
       {/* Title */}
       <h3 className="text-lg font-semibold mb-2">{title}</h3>
 
