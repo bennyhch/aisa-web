@@ -6,10 +6,11 @@ function HeroSection() {
     <section className="relative min-h-screen w-full">
       {/* Background image */}
       <Image
-        src="/Hero.png"
+        src="/Hero.webp"
         alt="landing background"
         fill
         className="absolute inset-0 h-full w-full object-cover"
+        priority
       />
 
       {/* Overlay for readability */}

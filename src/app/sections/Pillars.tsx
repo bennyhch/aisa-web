@@ -1,6 +1,3 @@
-import KnowledgeIcon from '@/components/icons/KnowledgeIcon';
-import PolicyIcon from '@/components/icons/PolicyIcon';
-import ResearchIcon from '@/components/icons/ResearchIcon';
 import InfoBox from '@/components/InfoBox';
 import SectionHeader from '@/components/SectionHeader';
 import SectionWrapper from '@/components/SectionWrapper';
@@ -10,19 +7,19 @@ const PILLARS = [
     title: 'Dialogue',
     description:
       'We connect policymakers, researchers, and innovators to shape responsible AI governance. Through dialogue and shared understanding, we build trust and align innovation with human values.',
-    icon: <PolicyIcon />,
+    icon: '/dialogue_icon.webp',
   },
   {
     title: 'Knowledge Ecosystem',
     description:
       'We empower policy leaders, researchers, academics, civil society and young professionals with the knowledge to influence responsible AI policy. Our programs inspire ethical leadership and practical action across Asia.',
-    icon: <KnowledgeIcon />,
+    icon: '/knowledge.webp',
   },
   {
     title: 'Research & Governance Studies',
     description:
       'We turn research into real-world impact. By analysing trends and developing evidence-based insights, we help governments and institutions design AI policies that protect people and promote progress.',
-    icon: <ResearchIcon />,
+    icon: '/research.webp',
   },
 ];
 

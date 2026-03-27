@@ -52,7 +52,7 @@ const Belief = () => {
         {/* Left: Image */}
         <div className="relative w-full md:w-1/2 h-64 md:h-[400px]">
           <Image
-            src="/building-under-sky.jpg"
+            src="/building-under-sky.webp"
             alt="Building under blue sky"
             fill
             className="object-cover"
