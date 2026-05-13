@@ -67,7 +67,7 @@ const advisors = [
     name: 'Gabriela Ramos',
     description:
       'Co-chair Task Force Inequalities & Social Financial Disclosure, Former OECD Sherpa in the G20 & OECD',
-    imageSrc: '/team/gabriela_ramos.webp',
+    imageSrc: '/team/gabriela_ramos.png',
     linkedinUrl: 'https://www.linkedin.com/in/gabramosp/',
   },
   {
