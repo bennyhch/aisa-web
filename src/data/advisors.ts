@@ -68,14 +68,14 @@ const advisors = [
     description:
       'Co-chair Task Force Inequalities & Social Financial Disclosure, Former OECD Sherpa in the G20 & OECD',
     imageSrc: '/team/gabriela_ramos.webp',
-    linkedinUrl: '/',
+    linkedinUrl: 'https://www.linkedin.com/in/gabramosp/',
   },
   {
     id: 10,
     name: 'Deepali Khanna',
     imageSrc: '/team/deepali_khanna.webp',
     description: 'Head of Asia at The Rockefeller Foundation',
-    linkedinUrl: '/',
+    linkedinUrl: 'https://www.linkedin.com/in/deepali-khanna1027/',
   },
 ];
 
