@@ -63,12 +63,12 @@ export const team = [
   },
   {
     id: 8,
-    name: 'Dr. Melody Shum',
-    title: 'Chief of Staff (Research)',
+    name: 'Ann Meceda',
+    title: 'Sr. Director, Intl. AI Diplomacy',
     description:
-      "Interdisciplinary scholar-practitioner bridging history, AI, and societal impact. She led applied research projects for the EU, USAID, and the NHS. She also taught AI safety and governance courses for the Center for AI Safety and Safe AI London. A socio-legal historian of Southeast Asia, her work examined the co-development of social movements in Vietnam and China. She won awards and fellowships from the Chiang Ching-kuo Foundation, the American Council of Learned Societies, and the Vietnamese Studies Group, with residencies at the Academia Sinica, the École française d'Extrême-Orient Hanoi, and the École Normale Supérieure Paris. She holds a Ph.D. from Northwestern University.",
-    imageSrc: '/team/melody.jpeg',
-    linkedinUrl: 'https://www.linkedin.com/in/shummelody/',
+      'Ann Meceda is a senior technology and policy professional focused on AI governance and international technology policy. Over 20 years as a diplomat with the U.S. Department of State, she helped advance emerging-technology policy and multilateral cooperation with partners including the EU, UN, OECD, ASEAN, and the Arctic Council.',
+    imageSrc: '/team/ann_meceda.webp',
+    linkedinUrl: 'https://www.linkedin.com/in/mecedaam/',
   },
   {
     id: 9,
@@ -99,15 +99,6 @@ export const team = [
   },
   {
     id: 12,
-    name: 'Zar Motik Adisuryo',
-    title: 'Policy Lead',
-    description:
-      'Zar Motik Adisuryo is the Policy Lead at AI Safety Asia and formerly served as the National Representative of Indonesia. Her work focuses on global comparative policy studies in the field of technology governance in the US, EU, UK and Indonesia, bridging policy research and implementation through national, regional and international collaboration. Her current research interests include online disinformation and the social construction of technology in society. She holds an MA in Communication, Culture, and Technology from Georgetown University, Washington D.C',
-    imageSrc: '/team/Zar.jpg',
-    linkedinUrl: 'https://www.linkedin.com/in/zar-motik-a-6ba087253/',
-  },
-  {
-    id: 13,
     name: 'Priyanka Moonsinghe',
     title: 'Parliament Lead',
     description:
@@ -116,7 +107,7 @@ export const team = [
     linkedinUrl: 'https://www.linkedin.com/in/priyanka-moonesinghe-857a4214b/',
   },
   {
-    id: 14,
+    id: 13,
     name: 'P.T. Nhean',
     title: 'Director of Biosecurity',
     description:
@@ -125,7 +116,7 @@ export const team = [
     linkedinUrl: 'https://www.linkedin.com/in/ptnhean/',
   },
   {
-    id: 15,
+    id: 14,
     name: 'Sherly Haristya',
     title: 'Consultant',
     description:
